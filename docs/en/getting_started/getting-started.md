@@ -1,11 +1,14 @@
 # Getting Started
 
-This section guides you how to sign in to KernelGen. And it also describes how to generate the Kernel by using the predefined operator definitions in the default use case.
+This section only includes how to get started from the KernelGen Web Platform for beginners. For using KernelGen MCP Server and Skills, see *KernelGen MCP Server User Guide* and *KernelGen Skills User Guide*.
+
+This section guides you to sign in to KernelGen Web Platform, and also describes how to generate the Kernel by using the predefined operator definitions in the default use case.
 
 ```{toctree}
 :maxdepth: 2
   
-signup-KernelGen
-login
-generate-triton-kernels-through-default-use-cases
+requirements.md
+signup-KernelGen.md
+login.md
+generate-triton-kernels-through-default-use-cases.md
 ```

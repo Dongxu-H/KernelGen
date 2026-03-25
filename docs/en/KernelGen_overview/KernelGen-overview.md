@@ -1,14 +1,37 @@
 # KernelGen Overview
 
-  KernelGen is an operator auto-generation tool. KernelGen is designed to construct operator definitions through natural language prompts, retrieve existing similar operator definitions, automatically execute operator accuracy and performance testing, generate accuracy and performance test results, and produce Kernels.
+**KernelGen** is designed to generate, optimize, and specialize operators across diverse hardware platforms. After connecting to KernelGen MCP Server, you can either accomplish these tasks using the server alone or combine it with first- and third-party skills. Users can invoke KernelGen MCP Server and these skills in VS Code (and GitHub Copilot), Claude Code, or OpenClaw.
 
-- If you are a starter that wants to quickly play with KernelGen, you can start with *KernelGen Overview* and [*Getting Started*](../getting_started/getting-started.md).
+## Features
 
-- If you are an operator developer, you can directly start from *User Guide*.
+KernelGen Web Platform and KernelGen MCP Server platforms support generating, optimizing, and specializing operators through one of the following methods:
+
+- KernelGen Web Platform
+- KernelGen MCP Server and its MCP tools: All MCP tools are integrated into the MCP server. Users can invoke the MCP server to invoke the integrated MCP tools.
+- KernelGen MCP Server and KernelGen skills: All KernelGen skills are bundled in the kernelgen-flagos skill. Users can invoke the bundled skill to invoke the sub-skills.
+
+## Supported hardware platforms
+
+KernelGen Web Platform and KernelGen MCP Server internally integrate support for the following testing devices: Huawei Ascend, Hygon, Iluvatar, MetaX, Mthreads, and NVIDIA.
+
+- **Generating operators**:
+  - If users do not select a testing device, NVIDIA is used by default.
+  - For generating FlagTree TLE operators specifically, the testing device can only be NVIDIA.
+- **Optimizing operators**: Only support operator optimization on NVIDIA.
+- **Specializing operators**: Only support operator specialization from NVIDIA to Huawei Ascend.
+
+## Where to Begin?
+
+- New to KernelGen?
+If you're just getting started and want to quickly explore KernelGen, begin with the Getting Started guide.
+- Developing custom operators?
+If you're an operator developer, jump straight into the following guides:
+  - *KernelGen Web Platform User Guide*
+  - *KernelGen MCP Server User Guide*
+  - *KernelGen Skills Guide*
 
 ```{toctree}
 
 workflow.md
 concept.md
-requirements.md
 ```

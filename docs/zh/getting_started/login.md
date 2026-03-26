@@ -1,22 +1,22 @@
 # 登录
 
-如果您已注销并想要登录 KernelGen，请执行以下步骤：
+如果您已退出并希望重新登录 KernelGen，请执行以下步骤：
 
 1. 在浏览器中访问 <https://KernelGen.flagos.io/login>。
-2. 点击 **进入工作台**。
-
-    ![alt text](../assets/images/1-workspace-ch.png)
-
-3. 通过手机号码或电子邮箱地址登录 KernelGen：
+2. 点击**免费开始构建**。
+   ![alt text](../assets/images/start-building-from-free.png)
+3. 向下滚动页面至底部，点击 **Web 平台**。
+   ![alt text](../assets/images/building-methods.png)
+4. 通过手机号或电子邮件地址登录 KernelGen：
 
     {style=lower-alpha}
-    1. 在 **登录/注册** 窗口中，点击 **手机登录** 选项卡或 **邮箱登录** 选项卡。
-    2. 输入您的手机号码或电子邮箱地址，然后点击 **获取验证码**。
-    3. 输入您手机号码或电子邮箱地址收到的验证码。
-    4. 阅读并勾选底部的复选框以接受 **用户协议** 和 **隐私政策** 条款。
+    1. 在**登录/注册**窗口中，点击**手机号登录**标签或**邮箱登录**标签。
+    2. 输入您的手机号或电子邮件地址，然后点击**获取验证码**。
+    3. 输入手机号或电子邮件地址收到的验证码。
+    4. 阅读并勾选底部的复选框，以接受**用户协议**和**隐私政策**条款。
 
-    ![alt text](../assets/images/2-login-and-signup-ch.png)
+    ![alt text](../assets/images/2-login-and-signup-en.png)
 
-4. 点击 **登录/注册**。
+5. 点击**登录/注册**。
 
-    欢迎页面将打开。
+    欢迎页面随即打开。

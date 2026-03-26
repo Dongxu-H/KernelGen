@@ -6,7 +6,6 @@
 :class: sd-btn-lg sd-px-4 sd-py-2 sd-fw-bold
 
 快速入门
-
 ```
 
 ::::{grid} 1 2 2 3
@@ -22,24 +21,54 @@
 [了解更多 »](KernelGen_overview/KernelGen-overview)
 :::
 
-:::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` 用户指南
-:link: user_guide/user-guide
+:::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` Web 平台用户指南
+:link: web_user_guide/web-user-guide
 :link-type: doc
 
-指导您如何使用自然语言提示构建算子定义，最终产出 Kernel。
+指导您如何通过 Web 平台使用自然语言提示构建算子定义，最终产出 Kernel。
 
 +++
-[了解更多 »](user_guide/user-guide)
+[了解更多 »](web_user_guide/web_user-guide)
 :::
 
-:::{grid-item-card} {octicon}`broadcast;1.5em;sd-mr-1` 用户案例
-:link: use_case/use-case-pr
+:::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` MCP 用户指南
+:link: mcp_user_guide/mcp-user-guide
+:link-type: doc
+
+指导您如何通过 MCP Server 和工具使用自然语言提示构建算子定义，最终产出 Kernel。
+
++++
+[了解更多 »](mcp_user_guide/mcp_user-guide)
+:::
+
+:::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` Skills 用户指南
+:link: skills_user_guide/skills-user-guide
+:link-type: doc
+
+指导您如何通过技能（Skills）使用自然语言提示构建算子定义，最终产出 Kernel。
+
++++
+[了解更多 »](skills_user_guide/skills_user-guide)
+:::
+
+:::{grid-item-card} {octicon}`broadcast;1.5em;sd-mr-1` Web 平台使用案例
+:link: web_use_case/web-use-case-pr
 :link-type: doc
 
 指导您如何将 KernelGen 生成的 Kernel、正确性测例和加速比测例贡献到 FlagGems GitHub。
 
 +++
-[了解更多 »](use_case/use-case-pr)
+[了解更多 »](web_use_case/web-use-case-pr)
+:::
+
+:::{grid-item-card} {octicon}`broadcast;1.5em;sd-mr-1` Skills 使用案例
+:link: skills_use_case/skills-use-case
+:link-type: doc
+
+指导您如何针对各类场景生成、优化和专化算子。
+
++++
+[了解更多 »](skill_use_case/skills_use-case-pr)
 :::
 
 ::::
@@ -61,15 +90,17 @@ release_notes/release-notes.md
 
 KernelGen_overview/KernelGen-overview.md
 getting_started/getting-started.md
-user_guide/user-guide.md
+web_user_guide/web-user-guide.md
+mcp_user_guide/mcp-user-guide.md
 ```
 
 ```{toctree}
-:caption: ⤵️ 用户案例
+:caption: ⤵️ 使用案例
 :maxdepth: 5
 :hidden:
 
-use_case/use-case-pr.md
+web_use_case/web-use-case-pr.md
+skills_use_case/skills-use-case.md
 ```
 
 ```{toctree}

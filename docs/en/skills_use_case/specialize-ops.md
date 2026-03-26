@@ -2,6 +2,8 @@
 
 You can use either VS Code (and Copilot), Claude Code, or OpenClaw to migrate CUDA-implemented operators to Huawei Ascend.
 
+## Step
+
 Chat with the AI agent to specialize in an operator：
 
 - **Typical requirements**: Operator name（mandatory）and task description (mandatory).

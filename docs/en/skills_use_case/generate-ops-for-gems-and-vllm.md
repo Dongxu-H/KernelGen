@@ -2,6 +2,8 @@
 
 Using VS Code (and Copilot), Claude Code, or OpenClaw to generate an operator for the FlagGems or vLLM project follows a similar general process.
 
+## Steps
+
 1. Configure the KernelGen MCP server. See [Configure and connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/connect-mcp.md).
 
 2. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).

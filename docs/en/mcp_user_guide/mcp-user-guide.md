@@ -7,7 +7,6 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 ```{toctree}
 :maxdepth: 2
 
-
-mcp_tool/mcp-tool.md
 connect_mcp/connect-mcp.md
+mcp_tool/mcp-tool.md
 ```

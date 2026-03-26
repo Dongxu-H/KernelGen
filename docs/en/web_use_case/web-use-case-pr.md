@@ -4,7 +4,7 @@ This use case introduces how to contribute the KernelGen generated **Kernel**, *
 
 The process is as follows:
 
-1. Generate **Kernel**, **CUDA Implementation**, **Correctness Test**, and **Speedup Ratio Test** codes. For more information, see [](../user_guide/generate-triton-kernels-through-your-operator-definitions.md).
+1. Generate **Kernel**, **CUDA Implementation**, **Correctness Test**, and **Speedup Ratio Test** codes. For more information, see [](../web_user_guide/generate-triton-kernels-through-your-operator-definitions.md).
 2. Save the codes as files, respectively.
 3. Convert the files.
 4. Contribute the converted file to FlagGems GitHub.

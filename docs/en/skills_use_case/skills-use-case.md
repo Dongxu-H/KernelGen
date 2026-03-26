@@ -1,6 +1,6 @@
 # KernelGen Skills Use Cases
 
-This section introduces how to generate kernels for any project, optimize and specialize them across hardware platforms using VS Code, Claude Code, or OpenClaw.&#x20;
+This section introduces how to generate kernels for any project, optimize and specialize them across hardware platforms using VS Code, Claude Code, or OpenClaw.
 
 
 ## Prerequisites
@@ -8,6 +8,12 @@ This section introduces how to generate kernels for any project, optimize and sp
 Before generating a kernel, make sure you read the prerequisites and accomplish the pre-installation steps in this section.
 
 - We have tested the following AI agent versions. We recommend using the tested version or a newer one.
+
+  | AI agent                  | Tested version |
+  |--------------------------|----------------|
+  | Claude Code              | 2.1.72         |
+  | VS Code （and Copilot）   | 0.38.2         |
+  | openClaw                 | 2026.2.26      |
 
 - Preinstall FlagGems or vLLM.
 

@@ -1,4 +1,4 @@
-# Specialize an operator for FlagGems or vLLM project
+# Specialize an operator
 
 You can use either VS Code (and Copilot), Claude Code, or OpenClaw to migrate CUDA-implemented operators to Huawei Ascend.
 

@@ -60,7 +60,8 @@ release_notes/release-notes.md
 
 KernelGen_overview/KernelGen-overview.md
 getting_started/getting-started.md
-user_guide/user-guide.md
+web_user_guide/web-user-guide.md
+mcp_user_guide/mcp-user-guide.md
 ```
 
 ```{toctree}
@@ -68,7 +69,8 @@ user_guide/user-guide.md
 :maxdepth: 5
 :hidden:
 
-use_case/use-case-pr.md
+web_use_case/web-use-case-pr.md
+mcp_use_case/mcp-use-case.md
 ```
 
 ```{toctree}

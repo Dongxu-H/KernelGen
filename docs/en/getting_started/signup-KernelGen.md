@@ -1,13 +1,15 @@
 # Sign up and sign in
 
-For first time use KernelGen, perform the following steps:
+For first-time users of KernelGen, perform the following steps:
 
 1. Open <https://KernelGen.flagos.io/login> in your browser.
-2. Click **Workspace**.
+2. Click **Start Building for Free**.
+3. When the page is scrolled down to the bottom, click **Web Platform**.
+4. Click **Workspace**.
 
    ![alt text](../assets/images/1-workspace-en.png)
 
-3. Choose to signup through phone number or Email address:
+5. Choose to signup through phone number or Email address:
 
     {style=lower-alpha}
     1. In the **Login/Sign up** dialogue, click **Phone Login** or **Email login**.

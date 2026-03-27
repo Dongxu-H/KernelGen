@@ -23,7 +23,7 @@
 
    之后，您可以在请求的 `Authorization` 请求头中按如下方式使用该 Token：
 
-   ```{code-block} json
+   ```http
    Authorization: Bearer <your Token>
    ```
 

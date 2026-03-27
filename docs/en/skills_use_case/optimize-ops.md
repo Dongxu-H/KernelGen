@@ -2,6 +2,8 @@
 
 You can use either VS Code (and Copilot), Claude Code, or OpenClaw to optimize operators on NVIDIA.
 
+## Steps
+
 Chat with the AI agent to optimize the operator：
 
 1. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).

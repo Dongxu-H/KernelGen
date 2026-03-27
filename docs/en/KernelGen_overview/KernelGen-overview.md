@@ -4,7 +4,7 @@
 
 ```{toctree}
 
-features.md
+Features.md
 supported-hardware-platforms.md
 where-to-begin.md
 workflow.md

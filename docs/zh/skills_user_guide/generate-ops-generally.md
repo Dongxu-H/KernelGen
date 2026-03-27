@@ -8,13 +8,13 @@
 
 本节介绍如何使用 VS Code、KernelGen MCP 服务器和 KernelGen Skills 生成 ReLU 算子。
 
-### **前提条件**
+### 前提条件
 
 * VS Code 版本需高于 2025 年 3 月发布的 1.99 版本。
 
 * 安装 GitHub Copilot 扩展。在与 Copilot 对话时，MCP 工具将自动调用。
 
-### **步骤**
+### 步骤
 
 1. 配置 KernelGen MCP Server。请参阅[使用 VS Code 连接 KernelGen MCP 服务器](https://file+.vscode-resource.vscode-cdn.net/d:/kernelgen20/docs/en/mcp_user_guide/connect_mcp/vscode-connect-mcp.md)。
 

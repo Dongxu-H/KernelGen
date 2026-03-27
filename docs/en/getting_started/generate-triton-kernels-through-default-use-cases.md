@@ -13,7 +13,7 @@ Kernels:
 
 2. Click ![alt text](../assets/icons/right-arrow.png){w=20px}.
 
-   KernelGen searches for a list of GitHub repositories to find code snippets similar to the operator definitions. For more information about the list of GitHub repositories, [](../search-repo-list.md).
+   KernelGen searches for a list of GitHub repositories to find code snippets similar to the operator definitions. For more information about the list of GitHub repositories, see [text](../references/search-repo-list.md).
 
 3. Select one or more URLs of repositories for reference or select the direct generation checkbox, and then click **Next**.
 

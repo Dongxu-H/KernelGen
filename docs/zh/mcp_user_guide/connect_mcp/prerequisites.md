@@ -19,7 +19,7 @@
    ```
    
 
-   ![MCP 服务 Token 获取](../../assets/images/token-ch.png)
+   ![alt text](../../assets/images/token-zh.png)
 
    之后，您可以在请求的 `Authorization` 请求头中按如下方式使用该 Token：
 

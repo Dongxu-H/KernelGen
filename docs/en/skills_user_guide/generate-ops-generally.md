@@ -8,13 +8,13 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 This section introduces how to use VS Code, KernelGen MCP server, and KernelGen Skills to generate the ReLU operator.
 
-### **Prerequisites**
+### Prerequisites
 
 * VS Code version should be greater than 1.99 released after March 2025.
 
 * Install the GitHub Copilot extension. During your chat with Copilot, MCP tools are automatically invoked.
 
-### **Steps**
+### Steps
 
 1. Configure the KernelGen MCP server. See [Use VS Code to connect to KernelGen MCP server](https://file+.vscode-resource.vscode-cdn.net/d:/kernelgen20/docs/en/mcp_user_guide/connect_mcp/vscode-connect-mcp.md).
 

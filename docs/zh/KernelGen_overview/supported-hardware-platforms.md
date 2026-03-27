@@ -1,6 +1,6 @@
 # 支持的硬件平台
 
-KernelGen Web 平台和 KernelGen MCP Server 内置支持以下测试设备：华为昇腾（Huawei Ascend）、海光（Hygon）、天数智芯（Iluvatar）、沐曦（MetaX）、摩尔线程（Mthreads）和 NVIDIA。
+KernelGen Web 平台和 KernelGen MCP 服务器内置支持以下测试设备：华为昇腾（Huawei Ascend）、海光（Hygon）、天数智芯（Iluvatar）、沐曦（MetaX）、摩尔线程（Mthreads）和 NVIDIA。
 
 - **生成算子**：
   - 若用户未选择测试设备，默认使用 NVIDIA。

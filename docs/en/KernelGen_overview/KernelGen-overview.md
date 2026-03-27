@@ -4,6 +4,9 @@
 
 ```{toctree}
 
+Features.md
+Supported_hardware_platforms.md
+Where_to_Begin.md
 workflow.md
 concept.md
 ```

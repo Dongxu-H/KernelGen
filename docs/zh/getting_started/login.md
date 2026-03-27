@@ -15,7 +15,7 @@
     3. 输入手机号或电子邮件地址收到的验证码。
     4. 阅读并勾选底部的复选框，以接受**用户协议**和**隐私政策**条款。
 
-    ![alt text](../assets/images/2-login-and-signup-en.png)
+    ![alt text](../assets/images/2-login-and-signup-ch.png)
 
 5. 点击**登录/注册**。
 

@@ -92,6 +92,7 @@ KernelGen_overview/KernelGen-overview.md
 getting_started/getting-started.md
 web_user_guide/web-user-guide.md
 mcp_user_guide/mcp-user-guide.md
+skills_user_guide/skills-user-guide.md
 ```
 
 ```{toctree}

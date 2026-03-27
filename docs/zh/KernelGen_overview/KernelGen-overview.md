@@ -5,7 +5,7 @@
 ```{toctree}
 :maxdepth: 2
 
-Features.md
+features.md
 supported-hardware-platforms.md
 where-to-begin.md
 workflow.md

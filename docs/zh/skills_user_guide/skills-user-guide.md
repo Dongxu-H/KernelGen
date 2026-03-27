@@ -68,6 +68,4 @@
 
 configure-and-connect-mcp.md
 generate-ops-generally.md
-
-
 ```

@@ -28,7 +28,7 @@
 指导您如何通过 Web 平台使用自然语言提示构建算子定义，最终产出 Kernel。
 
 +++
-[了解更多 »](web_user_guide/web_user-guide)
+[了解更多 »](web_user_guide/web-user-guide)
 :::
 
 :::{grid-item-card} {octicon}`book;1.5em;sd-mr-1` KernelGen MCP 用户指南
@@ -68,7 +68,7 @@
 指导您如何针对各类场景生成、优化和特化算子。
 
 +++
-[了解更多 »](skill_use_case/skills-use-case-pr)
+[了解更多 »](skill_use_case/skills-use-case)
 :::
 
 ::::
@@ -84,7 +84,7 @@ release_notes/release-notes.md
 ```
 
 ```{toctree}
-:caption: 📚 手册指南
+:caption: 📚 用户指南
 :maxdepth: 5
 :hidden:
 
@@ -92,6 +92,7 @@ KernelGen_overview/KernelGen-overview.md
 getting_started/getting-started.md
 web_user_guide/web-user-guide.md
 mcp_user_guide/mcp-user-guide.md
+skills_user_guide/skills-user-guide.md
 ```
 
 ```{toctree}

@@ -17,7 +17,7 @@ Before generating a kernel, make sure you read the prerequisites and accomplish 
 
 - Preinstall FlagGems or vLLM.
 
-  - KernelGen Skills support FlagGems, see the next [*Preinstall FlagGems*](https://jwolpxeehx.feishu.cn/wiki/DcB6wnUlyiJzaHkmlUQcUNfcnpb#share-PTNCdXxFUobOUxxZ76xcwgzEnSb) section.
+  - KernelGen Skills support FlagGems, see the next [Preinstall FlagGems](https://jwolpxeehx.feishu.cn/wiki/DcB6wnUlyiJzaHkmlUQcUNfcnpb#share-PTNCdXxFUobOUxxZ76xcwgzEnSb) section.
 
   - KernelGen Skills support vLLM, see [vLLM user guide](https://docs.vllm.ai/en/latest/getting_started/installation/).
 

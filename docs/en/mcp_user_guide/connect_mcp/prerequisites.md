@@ -1,4 +1,4 @@
-# Prerequisites
+# Obtain Bear Token
 
 Before configuring and connecting your AI agent to the KernelGen MCP server, you must obtain a Bearer Token from the KernelGen Web Platform.
 

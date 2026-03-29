@@ -31,7 +31,9 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 ##### Install kernelgen-flagos skill
 
-Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
+Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
+
+<!-- cSpell:disable -->
 
 For more information, see [VS Code documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills).
 
@@ -53,7 +55,7 @@ For more information, see [VS Code documentation](https://code.visualstudio.com/
 
 ##### Install kernelgen-flagos skill
 
-Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
+Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
 
 - **Option 1**: Quick install via npx
 
@@ -96,7 +98,7 @@ Prompt to OpenClaw to install the following skills different places:
 
 - McPorter skills created by Peter Steinberger from [ClawHub](https://clawhub.ai/steipete/mcporter)
 
-- `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos)
+- `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
 
 ```{note}
 You need to prompt to OpenClaw to convert the skill to OpenClaw-compatible skill. 

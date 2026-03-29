@@ -15,17 +15,21 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 - Install the GitHub Copilot extension. During your chat with Copilot, MCP tools are automatically invoked.
 
-#### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
-
-#### Step 2: Use VS Code to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/vscode-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-#### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
 Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
 
@@ -33,17 +37,21 @@ For more information, see [VS Code documentation](https://code.visualstudio.com/
 
 ### Use Claude Code to load skill
 
-#### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
-
-#### Step 2: Use Claude Code to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-#### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
 Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
 
@@ -67,17 +75,22 @@ cp -r <path-to-this-repo>/skills/kernelgen .claude/skills/
 
 ### Use OpenClaw to load skills
 
-#### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-#### Step 2: Use OpenClaw to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-#### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
 Prompt to OpenClaw to install the following skills different places:
 

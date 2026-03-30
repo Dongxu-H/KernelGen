@@ -1,31 +1,31 @@
 # Generate a kernel for FlagGems or vLLM project
 
-Using VS Code (and Copilot), Claude Code, or OpenClaw to generate an operator for the FlagGems or vLLM project follows a similar general process.
+## Prerequisites
 
-## Steps
+Before generating a kernel, make sure you read the prerequisites and accomplish the pre-installation steps in this section.
 
-1. Configure the KernelGen Operator Development MCP Toolkit. See [Configure and connect to KernelGen Operator Development MCP Toolkit](../mcp_user_guide/connect_mcp/connect-mcp.md).
+- We have tested the following AI agent versions. We recommend using the tested version or a newer one.
 
-2. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
+  | AI agent                  | Tested version |
+  |--------------------------|----------------|
+  | Claude Code              | 2.1.72         |
+  | VS Code （and Copilot）   | 0.38.2         |
+  | openClaw                 | 2026.2.26      |
 
-3. Invoke the `kernelgen-flagos` skill through one of the following methods:
+- Preinstall FlagGems or vLLM.
 
-   - Use the slash command `/kernelgen-flagos`
+  - KernelGen Skills support FlagGems, see the next [Preinstall FlagGems](https://jwolpxeehx.feishu.cn/wiki/DcB6wnUlyiJzaHkmlUQcUNfcnpb#share-PTNCdXxFUobOUxxZ76xcwgzEnSb) section.
 
-   - Include the name in your prompt
+  - KernelGen Skills support vLLM, see [vLLM user guide](https://docs.vllm.ai/en/latest/getting_started/installation/).
 
-  For skill installation, see the corresponding documentation:
+## Preinstall FlagGems
 
-- [VS Code documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
+For installation information, see [FlagGems Documentation](https://docs.flagos.io/projects/FlagGems/en/latest/getting_started/install.html#).
 
-- [Claude Code documentation](https://code.claude.com/docs/en/skills)
+**Note**: During the installation, skip the`pip install -r flag_tree_requirements/requirements_nvidia.txt` command since this command relates to installation of FlagTree and its dependencies.
 
-- [OpenClaw documentation](https://docs.openclaw.ai/tools/skills)
+## Generate a kernel
 
-- Chat with the AI agent about your requirements for generating the ReLU operator.
+Using VS Code (and Copilot), Claude Code, or OpenClaw to generate an operator for the FlagGems or vLLM project follows a similar general process in [KernelGen Skills User Guide](../skills_user_guide/skills-user-guide.md). The prompts can be same or for example, includes "Integrate the kernel into FlagGems." additionally.
 
-  - **Typical requirements**: Operator name（mandatory）, task description (mandatory), input parameters and data type, output parameters and data type, and testing devices.
-
-  - **Requirement example**: "**Generate a ReLU operator**, and the classification is pointwise. There is 1 input parameter: input: torch. Tensor, the input tensor, which can be of any shape and data type, usually floating-point type, and requires the application of the ReLU activation function. There is 1 output. Output: torch. Tensor, the output tensor after ReLU activation, with the same shape as input, and the logic is max(0, input), i.e., all negative values become 0, and positive values remain unchanged. Integrate the operator into FlagGems. Use MetaX. "
-
-The output files will be automatically submitted to the FlagGems project.
+KernelGen auto-detects the FlagGems if installed, and submits the output files to the FlagGems project experimental directory.

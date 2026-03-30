@@ -24,7 +24,8 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 2. Allow all the sessions during the chat.
 3. When the `mcp.json` pops up, prompt to Copilot: “Replace the token with the your token”.
 4. Start KernelGen Operator Development MCP Toolkit:
-   {style=lower-alpha}
+
+    {style=lower-alpha}
    1. Press **Ctrl+Shift+P** to open the command palette, type and search for “MCP: List Servers”, then press Enter to display a list of all MCP servers currently configured in VS Code along with their running status.
    2. Select "kernelgen-mcp" and "Start Server".
 

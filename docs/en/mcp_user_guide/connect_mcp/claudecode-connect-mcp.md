@@ -43,7 +43,7 @@ Two methods are available to register the KernelGen Operator Development MCP Too
            "transport": "sse",
            "url": "http://kernelgen.flagos.io/sse",
            "headers": {
-             "Authorization": "Authorization: Bearer <your JW Token>"
+             "Authorization": "Authorization: Bearer <your Token>"
            }
          }
        }

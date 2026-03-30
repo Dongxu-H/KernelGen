@@ -1,4 +1,4 @@
-# Obtain Bear Token
+# Obtain Bearer Token
 
 Before configuring and connecting your AI agent to the KernelGen Operator Development MCP Toolkit, you must obtain a Bearer Token from the KernelGen Web Platform.
 

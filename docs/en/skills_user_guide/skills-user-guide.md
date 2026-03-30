@@ -4,53 +4,58 @@ This section introduces how to use VS Code (and Copilot), Claude Code, and OpenC
 
 Regarding generating operators for FlagGems or vLLM project, optimizing operators, specializing operators across hardware platforms, and generating TLE operators, see see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).
 
-## Generate an operator generally
 
-This section introduces how to use VS Code (and GitHub Copilot), Claude Code, and OpenClaw to generate the ReLU operator generally.
+## Load skills
 
-### Load skills
+### Use VS Code to load skill
 
-#### Use VS Code to load skill
-
-##### Prerequisites
+#### Prerequisites
 
 - VS Code version should be greater than 1.99 released after March 2025.
 
 - Install the GitHub Copilot extension. During your chat with Copilot, MCP tools are automatically invoked.
 
-##### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
-
-##### Step 2: Use VS Code to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/vscode-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-##### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
-Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
+Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
+
+<!-- cSpell:disable -->
 
 For more information, see [VS Code documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills).
 
-#### Use Claude Code to load skill
+### Use Claude Code to load skill
 
-##### Steps
-
-##### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
-
-##### Step 2: Use Claude Code to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-##### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
-Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
+Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
 
 - **Option 1**: Quick install via npx
 
@@ -70,27 +75,30 @@ mkdir -p .claude/skills
 cp -r <path-to-this-repo>/skills/kernelgen .claude/skills/
 ```
 
-#### Use OpenClaw to load skills
+### Use OpenClaw to load skills
 
-##### Steps
-
-##### Step 1: Obtain Bear Token
+#### Steps
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-##### Step 2: Use OpenClaw to connect to KernelGen MCP server
 
 ```{include} ../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md
+:heading-offset: 4
+:relative-docs: ..
+:relative-images: ../../assets/images
 ```
 
-##### Step 3: Install kernelgen-flagos skill
+##### Install kernelgen-flagos skill
 
 Prompt to OpenClaw to install the following skills different places:
 
 - McPorter skills created by Peter Steinberger from [ClawHub](https://clawhub.ai/steipete/mcporter)
 
-- `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos)
+- `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) or [SkillHub](https://flagos.io/SkillHub?q=kernelgen&lang=cn).
 
 ```{note}
 You need to prompt to OpenClaw to convert the skill to OpenClaw-compatible skill. 

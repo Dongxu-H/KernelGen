@@ -1,6 +1,6 @@
 # 快速入门
 
-本节仅介绍如何从 KernelGen Web 平台入门，面向初学者。如需使用 KernelGen MCP Server 和技能（Skills），请参阅《KernelGen MCP Server 用户指南》和《KernelGen Skills 用户指南》。
+本节仅介绍如何从 KernelGen Web 平台入门，面向初学者。如需使用 KernelGen Operator Development MCP Toolkit 和技能（Skills），请参阅《KernelGen Operator Development MCP Toolkit 用户指南》和《KernelGen Skills 用户指南》。
 
 本节将引导您登录 KernelGen Web 平台，并介绍如何使用默认用例中的预定义算子定义来生成 Kernel。
 

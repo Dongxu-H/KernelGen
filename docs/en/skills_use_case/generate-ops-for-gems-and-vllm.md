@@ -4,7 +4,7 @@ Using VS Code (and Copilot), Claude Code, or OpenClaw to generate an operator fo
 
 ## Steps
 
-1. Configure the KernelGen MCP server. See [Configure and connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/connect-mcp.md).
+1. Configure the KernelGen Operator Development MCP Toolkit. See [Configure and connect to KernelGen Operator Development MCP Toolkit](../mcp_user_guide/connect_mcp/connect-mcp.md).
 
 2. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos).
 

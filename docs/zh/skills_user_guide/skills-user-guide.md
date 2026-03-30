@@ -1,6 +1,6 @@
 # KernelGen Skills 用户指南
 
-本节介绍如何使用 VS Code（及 Copilot）、Claude Code 和 OpenClaw 连接 KernelGen MCP 服务器，并使用 KernelGen Skills 进行通用算子生成。
+本节介绍如何使用 VS Code（及 Copilot）、Claude Code 和 OpenClaw 连接 KernelGen 算子开发 MCP 工具集，并使用 KernelGen Skills 进行通用算子生成。
 
 有关为 FlagGems 或 vLLM 项目生成算子、优化算子、跨硬件平台特化算子以及生成 TLE 算子的内容，请参阅《KernelGen Skills 使用案例》。
 
@@ -20,7 +20,7 @@
 
 ##### 步骤
 
-1. 配置 KernelGen MCP Server。请参阅[使用 VS Code 连接 KernelGen MCP Server](../mcp_user_guide/connect_mcp/vscode-connect-mcp.md)。
+1. 配置 KernelGen Operator Development MCP Toolkit。请参阅[使用 VS Code 连接 KernelGen Operator Development MCP Toolkit](../mcp_user_guide/connect_mcp/vscode-connect-mcp.md)。
    **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 从 [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) 下载并安装 `kernelgen-flagos` 技能。有关技能安装方法，请参阅 [VS Code 文档](https://code.visualstudio.com/docs/copilot/customization/agent-skills)。
@@ -29,7 +29,7 @@
 
 ##### 步骤
 
-1. 配置 KernelGen MCP 服务器。请参阅[使用 Claude Code 连接 KernelGen MCP 服务器](../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md)。
+1. 配置 KernelGen 算子开发 MCP 工具集。请参阅[使用 Claude Code 连接 KernelGen 算子开发 MCP 工具集](../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md)。
    **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 从 [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) 下载并安装 `kernelgen-flagos` 技能。有关技能安装方法，请参阅 [Claude Code 文档](https://code.claude.com/docs/en/skills)。
@@ -38,7 +38,7 @@
 
 ##### 步骤
 
-1. 配置 KernelGen MCP 服务器。请参阅[使用 OpenClaw 连接 KernelGen MCP 服务器](../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md)。
+1. 配置 KernelGen 算子开发 MCP 工具集。请参阅[使用 OpenClaw 连接 KernelGen 算子开发 MCP 工具集](../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md)。
    **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 下载并安装以下技能：

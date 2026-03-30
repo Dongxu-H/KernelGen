@@ -30,6 +30,8 @@ Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](ht
 
 For more information, see [VS Code documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills).
 
+Next task: [Generate an operator](generate-ops-generally.md)
+
 ## Use Claude Code to load skill
 
 ### Steps
@@ -67,6 +69,8 @@ npx skills add flagos-ai/skills -a claude-code
 mkdir -p .claude/skills
 cp -r <path-to-this-repo>/skills/kernelgen .claude/skills/
 ```
+
+Next task: [Generate an operator](generate-ops-generally.md)
 
 ## Use OpenClaw to load skills
 

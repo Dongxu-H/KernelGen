@@ -1,6 +1,6 @@
 # Obtain Bear Token
 
-Before configuring and connecting your AI agent to the KernelGen MCP server, you must obtain a Bearer Token from the KernelGen Web Platform.
+Before configuring and connecting your AI agent to the KernelGen Operator Development MCP Toolkit, you must obtain a Bearer Token from the KernelGen Web Platform.
 
 To retrieve your token, follow these steps:
 
@@ -31,4 +31,4 @@ To retrieve your token, follow these steps:
 
 - Treat your Bearer Token as a sensitive credential. Do not share it or expose it in public repositories.
 
-- Tokens have an expiration time. If your token has expired and you cannot connect to the KernelGen MCP Server, you can log in to the KernelGen Web Platform to copy a new one.
+- Tokens have an expiration time. If your token has expired and you cannot connect to the KernelGen Operator Development MCP Toolkit, you can log in to the KernelGen Web Platform to copy a new one.

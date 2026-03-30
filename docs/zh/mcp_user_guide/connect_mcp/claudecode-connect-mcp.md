@@ -1,12 +1,12 @@
-# 使用 Claude Code 连接 KernelGen MCP Server
+# 使用 Claude Code 连接 KernelGen Operator Development MCP Toolkit
 
-如需将 Claude Code 连接至 KernelGen MCP 服务器，请执行以下步骤：
+如需将 Claude Code 连接至 KernelGen 算子开发 MCP 工具集，请执行以下步骤：
 
-有两种方法可将 KernelGen MCP 服务器 注册到 Claude Code。无论使用哪种方法，您都必须充分了解 Claude Code 的作用域配置。更多信息请参阅 https://code.claude.com/docs/en/settings#
+有两种方法可将 KernelGen 算子开发 MCP 工具集 注册到 Claude Code。无论使用哪种方法，您都必须充分了解 Claude Code 的作用域配置。更多信息请参阅 https://code.claude.com/docs/en/settings#
 
-1. 配置并连接 KernelGen MCP 服务器。
+1. 配置并连接 KernelGen 算子开发 MCP 工具集。
 
-   - **方式一**（推荐）：使用 Server-Sent Events（SSE）协议和 Bearer 认证，将 KernelGen MCP 服务器注册到 Claude Code。
+   - **方式一**（推荐）：使用 Server-Sent Events（SSE）协议和 Bearer 认证，将 KernelGen 算子开发 MCP 工具集注册到 Claude Code。
 
      ```bash
      claude mcp add \

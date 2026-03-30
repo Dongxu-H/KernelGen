@@ -20,7 +20,8 @@ This section introduces how to use VS Code (and GitHub Copilot), Claude Code, an
 
 ##### Steps
 
-1. Configure the KernelGen MCP server. See [Use VS Code to connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/vscode-connect-mcp.md).
+1. Configure the KernelGen MCP server. See [Use VS Code to connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/vscode-connect-mcp.md). 
+   **Note**: To obtain Bear token, see [Obtain Bear Token](../mcp_user_guide/connect_mcp/prerequisites.md).
 
 2. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos). For skill installation, see [VS Code documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills).
 
@@ -29,6 +30,7 @@ This section introduces how to use VS Code (and GitHub Copilot), Claude Code, an
 ##### Steps
 
 1. Configure the KernelGen MCP server. See [Use Claude Code to connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md).
+   **Note**: To obtain Bear token, see [Obtain Bear Token](../mcp_user_guide/connect_mcp/prerequisites.md).
 
 2. Download and install the `kernelgen-flagos` skill from [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos). For skill installation,  see [Claude Code documentation](https://code.claude.com/docs/en/skills).
 
@@ -37,6 +39,7 @@ This section introduces how to use VS Code (and GitHub Copilot), Claude Code, an
 ##### Steps
 
 1. Configure the KernelGen MCP server. See [Use OpenClaw to connect to KernelGen MCP server](../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md) .
+   **Note**: To obtain Bear token, see [Obtain Bear Token](../mcp_user_guide/connect_mcp/prerequisites.md).
 
 2. Download and install the following skills:
 

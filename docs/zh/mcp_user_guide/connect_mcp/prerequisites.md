@@ -1,4 +1,4 @@
-# 前提条件
+# 获取 Bear 令牌
 
 在将您的 AI 智能体配置并连接至 KernelGen MCP 服务器之前，您必须先从 KernelGen Web 平台获取 Bearer Token。
 

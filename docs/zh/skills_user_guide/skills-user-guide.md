@@ -21,6 +21,7 @@
 ##### 步骤
 
 1. 配置 KernelGen MCP Server。请参阅[使用 VS Code 连接 KernelGen MCP Server](../mcp_user_guide/connect_mcp/vscode-connect-mcp.md)。
+   **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 从 [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) 下载并安装 `kernelgen-flagos` 技能。有关技能安装方法，请参阅 [VS Code 文档](https://code.visualstudio.com/docs/copilot/customization/agent-skills)。
 
@@ -29,6 +30,7 @@
 ##### 步骤
 
 1. 配置 KernelGen MCP 服务器。请参阅[使用 Claude Code 连接 KernelGen MCP 服务器](../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md)。
+   **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 从 [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) 下载并安装 `kernelgen-flagos` 技能。有关技能安装方法，请参阅 [Claude Code 文档](https://code.claude.com/docs/en/skills)。
 
@@ -37,11 +39,11 @@
 ##### 步骤
 
 1. 配置 KernelGen MCP 服务器。请参阅[使用 OpenClaw 连接 KernelGen MCP 服务器](../mcp_user_guide/connect_mcp/openclaw-connect-mcp.md)。
+   **注意**：获取 Bear token，请参阅[获取 Bear 令牌](../mcp_user_guide/connect_mcp/prerequisites.md)。
 
 2. 下载并安装以下技能：
 
    - 从 [ClawHub](https://clawhub.ai/steipete/mcporter) 获取由 Peter Steinberger 创建的 McPorter 技能
-
    - 从 [FlagOS Skills Github](https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos) 获取 `kernelgen-flagos` 技能
 
    有关技能安装方法，请参阅 [OpenClaw 文档](https://docs.openclaw.ai/tools/skills)。

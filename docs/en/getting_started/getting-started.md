@@ -1,6 +1,6 @@
 # Getting Started
 
-This section only includes how to get started from the KernelGen Web Platform for beginners. For using KernelGen MCP Server and Skills, see *KernelGen MCP Server User Guide* and *KernelGen Skills User Guide*.
+This section only includes how to get started from the KernelGen Web Platform for beginners. For using KernelGen Operator Development MCP Toolkit and Skills, see *KernelGen Operator Development MCP Toolkit User Guide* and *KernelGen Skills User Guide*.
 
 This section guides you to sign in to KernelGen Web Platform, and also describes how to generate the Kernel by using the predefined operator definitions in the default use case.
 

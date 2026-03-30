@@ -2,7 +2,7 @@
 
 The diagram below provides a brief overview of how KernelGen assists in kernel generation.
 
-However, user configurations may vary depending on the selected platform, AI agent, skill, and specific use case. For more information, see *KernelGen Web Platform User Guide*, *KernelGen MCP Server User Guide*, and *KernelGen Skills User Guide*.
+However, user configurations may vary depending on the selected platform, AI agent, skill, and specific use case. For more information, see *KernelGen Web Platform User Guide*, *KernelGen Operator Development MCP Toolkit User Guide*, and *KernelGen Skills User Guide*.
 
 ![alt text](../assets/images/KernelGen-workflow-en.png)
 

@@ -1,6 +1,6 @@
-# 使用 Cursor 连接 KernelGen MCP 服务器
+# 使用 Cursor 连接 KernelGen 算子开发 MCP 工具集
 
-如需将 Cursor 连接至 KernelGen MCP 服务器，请按如下方式配置 `mcp.json` 文件：
+如需将 Cursor 连接至 KernelGen 算子开发 MCP 工具集，请按如下方式配置 `mcp.json` 文件：
 
 ```json
 "mcp_kernelgen": {

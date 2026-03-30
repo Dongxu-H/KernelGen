@@ -6,6 +6,6 @@
 
   - KernelGen Web Platform User Guide
 
-  - KernelGen MCP Server User Guide
+  - KernelGen Operator Development MCP Toolkit User Guide
 
   - KernelGen Skills Guide

@@ -1,4 +1,4 @@
-# Use VS Code to connect to KernelGen MCP server
+# Use VS Code to connect to KernelGen Operator Development MCP Toolkit
 
 If you use VS Code, note the following requirements:
 
@@ -8,7 +8,7 @@ If you use VS Code, note the following requirements:
 
 To connect VS Code to KernelGem MCP server, perform the following steps:
 
-1. Configure the KernelGen MCP server. Create `.VS Code/mcp.json` in the project root directory.
+1. Configure the KernelGen Operator Development MCP Toolkit. Create `.VS Code/mcp.json` in the project root directory.
 
    ```json
    {
@@ -28,7 +28,7 @@ To connect VS Code to KernelGem MCP server, perform the following steps:
 
    1. Press **Ctrl**+**Shift**+**P&#x20;**&#x74;o open the command palette, type and search for "MCP: List Servers", then press Enter to display a list of all MCP servers currently configured in VS Code along with their running status.
 
-   2. Verify that the status of the KernelGen MCP server is `connected`.
+   2. Verify that the status of the KernelGen Operator Development MCP Toolkit is `connected`.
 
 **Note**:
 

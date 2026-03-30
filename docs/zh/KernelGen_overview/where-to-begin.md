@@ -6,6 +6,6 @@
 
   - KernelGen Web 平台用户指南
 
-  - KernelGen MCP 服务器用户指南
+  - KernelGen 算子开发 MCP 工具集用户指南
 
   - KernelGen Skills 指南

@@ -1,6 +1,6 @@
-# Use Cursor to connect to KernelGen MCP server
+# Use Cursor to connect to KernelGen Operator Development MCP Toolkit
 
-To connect Cursor to the KernelGen MCP server, set the `mcp.json` file as follows:
+To connect Cursor to the KernelGen Operator Development MCP Toolkit, set the `mcp.json` file as follows:
 
 ```json
 "mcp_kernelgen": {

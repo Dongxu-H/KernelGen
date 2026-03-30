@@ -18,11 +18,7 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 :relative-images: ../../assets/images
 ```
 
-## Connect to KernelGen Operator Development MCP Toolkit and load skills
-
-Depending on the selected AI agent, the steps may vary.
-
-### Connect VS Code and Github Copilot to KernelGen Operator Development MCP Toolkit and load skills
+## Connect VS Code and Github Copilot to KernelGen Operator Development MCP Toolkit and load skills
 
 1. Prompt to Copilot: "Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos".
 2. Allow all the sessions during the chat.
@@ -32,21 +28,21 @@ Depending on the selected AI agent, the steps may vary.
    1. Press **Ctrl+Shift+P** to open the command palette, type and search for “MCP: List Servers”, then press Enter to display a list of all MCP servers currently configured in VS Code along with their running status.
    2. Select "kernelgen-mcp" and "Start Server".
 
-### Connect Claude Code to KernelGen Operator Development MCP Toolkit and load skills
+## Connect Claude Code to KernelGen Operator Development MCP Toolkit and load skills
 
 ```{include} ../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md
-:heading-offset: 3
+:heading-offset: 2
 :relative-docs: ..
 :relative-images: ../../assets/images
 ```
 
-#### Install skills
+### Install skills
 
 1. Prompt to Copilot: "Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos".
 2. After installing skills, restart the Claude Code with **Control+C**.
 3. Verify the skills are installed using command "/", if kernelgen-flagos listed, the skills are installed.
 
-### Connect OpenClaw to KernelGen Operator Development MCP Toolkit and load skills
+## Connect OpenClaw to KernelGen Operator Development MCP Toolkit and load skills
 
 1. Prompt to OpenClaw: "Connect to MCP, its url is <http://kernelgen.flagos.io/sse> and token is your token ".
 

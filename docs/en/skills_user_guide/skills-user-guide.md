@@ -56,6 +56,8 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 ## Generate an operator
 
+### Generate an operator generally
+
 To generate an operator, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）, task description (mandatory), input parameters and data type, output parameters and data type, testing devices, and the number of iterations of operator optimization.
 
 You can use one of the following methods to invoke the `kernelgen-flagos` skill and generate an operator:
@@ -72,6 +74,6 @@ You can use one of the following methods to invoke the `kernelgen-flagos` skill 
    Use kernelgen-flagos to generate the ReLU operator. The classification is pointwise. There is 1 input parameter: input: torch. Tensor, the input tensor, which can be of any shape and data type, usually floating-point type, and requires the application of the ReLU activation function. There is 1 output. Output: torch. Tensor, the output tensor after ReLU activation, with the same shape as input, and the logic is max(0, input), i.e., all negative values become 0, and positive values remain unchanged. Use MetaX.
    ```
 
-Regarding which hardware platforms you can generate operators for, see [Supported Hardware Platforms](../KernelGen_overview/supported-hardware-platforms.md)
+Regarding which hardware platforms you can generate operators for, see [Supported Hardware Platforms](../KernelGen_overview/supported-hardware-platforms.md).
 
 Regarding generating operators for FlagGems or vLLM project, optimizing operators, and specializing operators across hardware platforms use cases, see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).

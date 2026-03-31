@@ -1,6 +1,6 @@
 # KernelGen 技能（Skills）用户指南
 
-本节介绍如何使用 VS Code（及 Copilot）、Claude Code 和 OpenClaw 连接到 KernelGen 算子开发 MCP Toolkit，并使用 KernelGen 技能（Skills）生成算子的一般流程。
+本节介绍如何使用 VS Code（及 Copilot）、Claude Code 和 OpenClaw 连接到 KernelGen 算子开发 MCP 工具集，并使用 KernelGen 技能（Skills）生成算子的一般流程。
 
 关于为 FlagGems 或 vLLM 项目生成算子、优化算子以及跨硬件平台专化算子的使用案例，请参见 [KernelGen 技能使用案例](../skills_use_case/skills-use-case.md)。
 
@@ -10,7 +10,7 @@
 
 - 使用 VS Code 时，请安装 GitHub Copilot 扩展。
 
-- 使用 KernelGen 技能（Skills）时，必须连接到 KernelGen 算子开发 MCP Toolkit。
+- 使用 KernelGen 技能（Skills）时，必须连接到 KernelGen 算子开发 MCP 工具集。
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md
 :heading-offset: 1
@@ -18,19 +18,19 @@
 :relative-images: ../../assets/images
 ```
 
-## 连接 VS Code 和 GitHub Copilot 到 KernelGen 算子开发 MCP Toolkit 并加载技能
+## 连接 VS Code 和 GitHub Copilot 到 KernelGen 算子开发 MCP 工具集 并加载技能
 
 1. 向 Copilot 发送提示词："Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos"。
 2. 在对话过程中，允许所有会话请求。
 3. 当 `mcp.json` 弹出时，向 Copilot 发送提示词："Replace the token with *your token*"。
-4. 启动 KernelGen 算子开发 MCP Toolkit：
+4. 启动 KernelGen 算子开发 MCP 工具集：
 
     {style=lower-alpha}
 
    1. 按 **Ctrl+Shift+P** 打开命令面板，输入并搜索"MCP: List Servers"，然后按 Enter，即可显示当前在 VS Code 中配置的所有 MCP Server 及其运行状态。
    2. 选择"kernelgen-mcp"并点击"Start Server"。
 
-## 连接 Claude Code 到 KernelGen 算子开发 MCP Toolkit 并加载技能
+## 连接 Claude Code 到 KernelGen 算子开发 MCP 工具集 并加载技能
 
 ```{include} ../mcp_user_guide/connect_mcp/claudecode-connect-mcp.md
 :heading-offset: 2
@@ -44,11 +44,11 @@
 2. 安装技能后，使用 **Control+C** 重启 Claude Code。
 3. 使用命令"/"验证技能是否已安装，若列表中出现 kernelgen-flagos，则说明技能安装成功。
 
-## 连接 OpenClaw 到 KernelGen 算子开发 MCP Toolkit 并加载技能
+## 连接 OpenClaw 到 KernelGen 算子开发 MCP 工具集 并加载技能
 
 1. 向 OpenClaw 发送提示词："Connect to MCP, its url is <http://kernelgen.flagos.io/sse> and token is your token"。
 
-2. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP Toolkit 作为 MCP Server 添加到 `openclaw.json` 配置文件中。
+2. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集 作为 MCP Server 添加到 `openclaw.json` 配置文件中。
 
 3. 向 OpenClaw 发送提示词："Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos"。
 

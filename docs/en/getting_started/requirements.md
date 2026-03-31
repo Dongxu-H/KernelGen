@@ -1,4 +1,4 @@
-# Requirements
+# Web browser requirements
 
 You are recommended to use one of the following web browsers to generate, optimize, and specialize operators:
 

@@ -1,6 +1,6 @@
 # 获取 Bearer Token
 
-在配置并将您的 AI 智能体连接到 KernelGen 算子开发 MCP Toolkit 之前，您必须从 KernelGen Web 平台获取 Bearer Token。
+在配置并将您的 AI 智能体连接到 KernelGen 算子开发 MCP 工具集 之前，您必须从 KernelGen Web 平台获取 Bearer Token。
 
 请按照以下步骤获取 Token：
 
@@ -20,7 +20,7 @@
 
    ![alt text](../../assets/images/token.png)
 
-   之后，您可以在将 AI 智能体连接到 KernelGen 算子开发 MCP Toolkit 时使用此 Token。
+   之后，您可以在将 AI 智能体连接到 KernelGen 算子开发 MCP 工具集 时使用此 Token。
 
    ```
 
@@ -28,4 +28,4 @@
 
 - 请将您的 Bearer Token 视为敏感凭据，切勿共享或在公开代码仓库中暴露。
 
-- Token 具有有效期。若 Token 已过期且无法连接到 KernelGen 算子开发 MCP Toolkit，可登录 KernelGen Web 平台复制新的 Token。
+- Token 具有有效期。若 Token 已过期且无法连接到 KernelGen 算子开发 MCP 工具集，可登录 KernelGen Web 平台复制新的 Token。

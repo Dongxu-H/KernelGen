@@ -45,7 +45,7 @@
 :link: skills_user_guide/skills-user-guide
 :link-type: doc
 
-指导您如何通过技能（Skills）使用自然语言提示构建算子定义，最终产出 Kernel。
+指导您如何通过 Skills 使用自然语言提示构建算子定义，最终产出 Kernel。
 
 +++
 [了解更多 »](skills_user_guide/skills-user-guide)

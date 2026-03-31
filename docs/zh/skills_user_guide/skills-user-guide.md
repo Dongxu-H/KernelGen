@@ -49,7 +49,7 @@
 1. 向 OpenClaw 发送提示词："连接 MCP，其 URL 为 http://kernelgen.flagos.io/sse，Token为*你的 Token*。
 💡 结合网页信息的补充说明"。
 
-1. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集 作为 MCP Server 添加到 `openclaw.json` 配置文件中。
+1. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集作为 MCP Server 添加到 `openclaw.json` 配置文件中。
 
 2. 向 OpenClaw 发送提示词："连接 MCP，其 URL 为 http://kernelgen.flagos.io/sse，Token为*你的 Token*"。
 

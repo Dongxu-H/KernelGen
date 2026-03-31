@@ -2,7 +2,7 @@
 
 下图简要概述了 KernelGen 如何协助完成 Kernel 生成。
 
-但用户的具体配置可能因所选平台、AI 智能体、Skills 及具体用例的不同而有所差异。更多信息请参阅[KernelGen Web 平台用户指南](../web_user_guide/web-user-guide.md)、[KernelGen 算子开发 MCP 工具集 用户指南](../mcp_user_guide/mcp-user-guide.md)和 [KernelGen Skills 用户指南](../skills_user_guide/skills-user-guide.md)。
+但用户的具体配置可能因所选平台、AI 智能体、Skills 及具体用例的不同而有所差异。更多信息请参阅[KernelGen Web 平台用户指南](../web_user_guide/web-user-guide.md)、[KernelGen 算子开发 MCP 工具集用户指南](../mcp_user_guide/mcp-user-guide.md)和 [KernelGen Skills 用户指南](../skills_user_guide/skills-user-guide.md)。
 
 ![alt text](../assets/images/KernelGen-workflow-ch.png)
 

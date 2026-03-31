@@ -11,11 +11,11 @@
 - **方式一**：使用斜杠命令和提示词
 
    ```{code-block} python
-   /kernelgen-flagos Migrate the CUDA-implemented operator fused/silu_and_mul.py to the Ascend chip, with the operator file stored in the FlagGems repository, and the directory is _ascend/fused/silu_and_mul.py, ensuring that the accuracy verification passes.
+   /kernelgen-flagos 将 CUDA 实现的算子 fused/silu_and_mul.py 迁移到 Ascend（昇腾）芯片上，算子文件存放在 FlagGems 仓库中，路径为 _ascend/fused/silu_and_mul.py，并确保精度验证通过。
    ```
 
 - **方式二**：完全使用提示词
 
    ```{code-block} python
-   Use kernelgen-flagos to migrate the CUDA-implemented operator fused/silu_and_mul.py to the Ascend chip, with the operator file stored in the FlagGems repository, and the directory is _ascend/fused/silu_and_mul.py, ensuring that the accuracy verification passes.
+   使用 kernelgen-flagos 将 CUDA 实现的算子 fused/silu_and_mul.py 迁移到 Ascend（昇腾）芯片上，算子文件存放在 FlagGems 仓库的 _ascend/fused/silu_and_mul.py 路径下，并确保精度验证通过。
    ```

@@ -13,7 +13,7 @@ KernelGen 算子开发 MCP 工具集 集成了用于 Kernel 自动调优的 MCP 
 提示词示例：
 
 ```{code-block} shell
-Invoke MCP tools to iteratively generate the rmsnorm operator on MetaX.
+调用 MCP 工具，在 MetaX 上迭代生成 rmsnorm 算子。
 ```
 
 **注意**：

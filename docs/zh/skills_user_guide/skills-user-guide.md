@@ -20,9 +20,9 @@
 
 ## 连接 VS Code 和 GitHub Copilot 到 KernelGen 算子开发 MCP 工具集 并加载技能
 
-1. 向 Copilot 发送提示词："Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos"。
+1. 向 Copilot 发送提示词："从 https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos 安装 kernelgen-flagos 技能"。
 2. 在对话过程中，允许所有会话请求。
-3. 当 `mcp.json` 弹出时，向 Copilot 发送提示词："Replace the token with *your token*"。
+3. 当 `mcp.json` 弹出时，向 Copilot 发送提示词："将令牌替换为*你的令牌*"。
 4. 启动 KernelGen 算子开发 MCP 工具集：
 
     {style=lower-alpha}
@@ -40,7 +40,7 @@
 
 ### 安装技能
 
-1. 向 Copilot 发送提示词："Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos"。
+1. 向 Copilot 发送提示词："从 https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos 安装 kernelgen-flagos 技能。"。
 2. 安装技能后，使用 **Control+C** 重启 Claude Code。
 3. 使用命令"/"验证技能是否已安装，若列表中出现 kernelgen-flagos，则说明技能安装成功。
 
@@ -50,13 +50,11 @@
 
 2. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集 作为 MCP Server 添加到 `openclaw.json` 配置文件中。
 
-3. 向 OpenClaw 发送提示词："Install kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos"。
+3. 向 OpenClaw 发送提示词："连接 MCP，其 URL 为 http://kernelgen.flagos.io/sse，令牌为*你的令牌*"。
 
-4. 向 OpenClaw 发送提示词："Convert the skills to OpenClaw compatible skills and install again"。
+4. 向 OpenClaw 发送提示词："将技能转换为 OpenClaw 兼容的技能格式，然后重新安装"。
 
-## 生成算子
-
-### 一般性生成算子
+## 一般性生成算子
 
 生成算子时，典型的提示词应包含以下必填和可选要素：算子名称（必填）、任务描述（必填）、输入参数及数据类型、输出参数及数据类型、测试设备，以及算子优化的迭代次数。
 
@@ -65,13 +63,13 @@
 - **方式一**：使用斜杠命令和提示词
 
    ```{code-block} shell
-   /kernelgen-flagos Generate the ReLU operator. The classification is pointwise. There is 1 input parameter: input: torch. Tensor, the input tensor, which can be of any shape and data type, usually floating-point type, and requires the application of the ReLU activation function. There is 1 output. Output: torch. Tensor, the output tensor after ReLU activation, with the same shape as input, and the logic is max(0, input), i.e., all negative values become 0, and positive values remain unchanged. Use MetaX.
+   /kernelgen-flagos 生成 ReLU 算子。分类为逐点（pointwise）操作。包含 1 个输入参数：input: torch.Tensor，即输入张量，可以是任意形状和数据类型（通常为浮点型），需要对其应用 ReLU 激活函数。包含 1 个输出：output: torch.Tensor，即经过 ReLU 激活后的输出张量，形状与 input 相同，逻辑为 max(0, input)，即所有负值变为 0，正值保持不变。使用 MetaX。
    ```
 
 - **方式二**：完全使用提示词
 
    ```{code-block} shell
-   Use kernelgen-flagos to generate the ReLU operator. The classification is pointwise. There is 1 input parameter: input: torch. Tensor, the input tensor, which can be of any shape and data type, usually floating-point type, and requires the application of the ReLU activation function. There is 1 output. Output: torch. Tensor, the output tensor after ReLU activation, with the same shape as input, and the logic is max(0, input), i.e., all negative values become 0, and positive values remain unchanged. Use MetaX.
+   使用 kernelgen-flagos 生成 ReLU 算子。分类为逐点（pointwise）操作。包含 1 个输入参数：input: torch.Tensor，即输入张量，可以是任意形状和数据类型（通常为浮点型），需要对其应用 ReLU 激活函数。包含 1 个输出：output: torch.Tensor，即经过 ReLU 激活后的输出张量，形状与 input 相同，逻辑为 max(0, input)，即所有负值变为 0，正值保持不变。使用 MetaX。
    ```
 
 关于可生成算子的硬件平台，请参见[支持的硬件平台](../KernelGen_overview/supported-hardware-platforms.md)。

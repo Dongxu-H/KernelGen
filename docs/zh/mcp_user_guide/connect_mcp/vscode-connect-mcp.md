@@ -1,4 +1,4 @@
-# 使用 VS Code 连接到 KernelGen 算子开发 MCP Toolkit
+# 使用 VS Code 连接到 KernelGen 算子开发 MCP 工具集
 
 使用 VS Code 时，请注意以下要求：
 
@@ -6,7 +6,7 @@
 
 * 请安装 GitHub Copilot 扩展。
 
-请按照以下步骤将 VS Code 连接到 KernelGen 算子开发 MCP Toolkit：
+请按照以下步骤将 VS Code 连接到 KernelGen 算子开发 MCP 工具集：
 
 1. 选择 **文件** > **首选项** > **设置** > **Chat** > **MCP**。在 **Server Sampling** 区域，点击"Edit in settings.json"链接。
 2. 将以下代码添加到 `setting.json` 文件中。

@@ -54,9 +54,7 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 4. Prompt to OpenClaw: "Convert the skills to OpenClaw compatible skills and install again".
 
-## Generate an operator
-
-### Generate an operator generally
+## Generate an operator generally
 
 To generate an operator, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）, task description (mandatory), input parameters and data type, output parameters and data type, testing devices, and the number of iterations of operator optimization.
 

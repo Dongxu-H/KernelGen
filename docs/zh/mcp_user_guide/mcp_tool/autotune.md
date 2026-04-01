@@ -8,12 +8,12 @@ KernelGen 算子开发 MCP 工具集 集成了用于 Kernel 自动调优的 MCP 
 
 自动调优 Kernel 时，典型的提示词应包含以下必填和可选要素：
 
-"Invoke MCP tools"（必填）、算子名称（必填）、任务描述（必填）、测试设备、迭代轮数，以及加速比目标。
+"调用 MCP 工具"（必填）、算子名称（必填）、任务描述（必填）、测试设备、迭代轮数，以及加速比目标。
 
 提示词示例：
 
 ```{code-block} shell
-Invoke MCP tools to iteratively generate the rmsnorm operator on MetaX.
+调用 MCP 工具，在 MetaX 上迭代生成 rmsnorm 算子。
 ```
 
 **注意**：

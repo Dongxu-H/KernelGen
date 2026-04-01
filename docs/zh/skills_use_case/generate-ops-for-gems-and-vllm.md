@@ -14,9 +14,9 @@
 
 - 预先安装 FlagGems 或 vLLM。
 
-  - KernelGen 技能支持 FlagGems，请参见下方[预安装 FlagGems](https://jwolpxeehx.feishu.cn/wiki/DcB6wnUlyiJzaHkmlUQcUNfcnpb#share-PTNCdXxFUobOUxxZ76xcwgzEnSb) 章节。
+  - KernelGen Skills 支持 FlagGems，请参见下方*预安装 FlagGems*章节。
 
-  - KernelGen 技能支持 vLLM，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。
+  - KernelGen Skills 支持 vLLM，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。
 
 ## 预安装 FlagGems
 
@@ -26,4 +26,4 @@
 
 ## 生成 Kernel
 
-使用 VS Code（及 Copilot）、Claude Code 或 OpenClaw 为 FlagGems 或 vLLM 项目生成算子，其一般流程与 [KernelGen 技能用户指南](../skills_user_guide/skills-user-guide.md) 中的描述基本相同。提示词通常可以通用，例如，您只需在请求中添加"Integrate the kernel into FlagGems"即可。KernelGen 会自动检测是否已安装 FlagGems，并将输出文件提交到该项目的实验目录中。
+使用 VS Code（及 Copilot）、Claude Code 或 OpenClaw 为 FlagGems 或 vLLM 项目生成算子，其一般流程与 [KernelGen Skills 用户指南](../skills_user_guide/skills-user-guide.md) 中的描述基本相同。提示词通常可以通用，例如，您只需在请求中添加"Integrate the kernel into FlagGems"即可。KernelGen 会自动检测是否已安装 FlagGems，并将输出文件提交到该项目的实验目录中。

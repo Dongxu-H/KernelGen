@@ -1,7 +1,7 @@
 
 # TLE Kernel
 
-您可以使用 MCP 工具在 NVIDIA 上生成基于 TLE 的 Kernel。本节以 sparse\_mla Kernel 为例进行说明。关于该 Kernel 的详细信息，请参见 [FlagTree 文档](https://jwolpxeehx.feishu.cn/wiki/DcB6wnUlyiJzaHkmlUQcUNfcnpb#share-U0vAdwqqooUphDxTAWocWyXJnad)。
+您可以使用 MCP 工具在 NVIDIA 上生成基于 TLE 的 Kernel。本节以 sparse\_mla Kernel 为例进行说明。关于该 Kernel 的详细信息，请参见 [FlagTree 文档](https://docs.flagos.io/projects/FlagTree/en/latest/user_guide/examples.html#)。
 
 在生成 TLE 算子之前，请预先安装 FlagTree 3.6.x 分支。请参见[安装 FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html)。
 

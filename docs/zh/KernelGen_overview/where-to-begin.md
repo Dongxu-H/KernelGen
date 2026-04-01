@@ -8,4 +8,4 @@
 
   - [KernelGen 算子开发 MCP 工具集用户指南](../mcp_user_guide/mcp-user-guide.md)
 
-  - [KernelGen 技能（Skills）指南](../skills_user_guide/skills-user-guide.md)
+  - [KernelGen Skills 指南](../skills_user_guide/skills-user-guide.md)

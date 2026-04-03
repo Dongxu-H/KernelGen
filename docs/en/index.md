@@ -68,7 +68,7 @@ Guides you how to contribute the KernelGen generated Kernel, Correctness Test, a
 Guides you how to generate, optimize, and specialize operators for various cases.
 
 +++
-[Learn more »](faqs/faqs.md)
+[Learn more »](skills_use_case/skills-use-case)
 
 :::
 
@@ -79,7 +79,7 @@ Guides you how to generate, optimize, and specialize operators for various cases
 Information about frequently asked questions.
 
 +++
-[Learn more »](skill_use_case/skills-use-case)
+[Learn more »](faqs/faqs)
 :::
 
 ::::

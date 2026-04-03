@@ -1,4 +1,4 @@
-# 使用 Claude Code 连接到 KernelGen 算子开发 MCP Toolkit
+# 使用 Claude Code 连接到 KernelGen 算子开发 MCP 工具集
 
 ## 前提条件
 
@@ -7,15 +7,15 @@
 
 ## 步骤
 
-按照以下步骤将 Claude Code 连接到 KernelGen 算子开发 MCP Toolkit：
+按照以下步骤将 Claude Code 连接到 KernelGen 算子开发 MCP 工具集：
 
 1. 使用 Server-Sent Events（SSE）协议和 Bearer 认证方式，将 KernelGen 算子开发 MCP 工具集注册到 Claude Code：
 
-   - **方式一**（推荐）：发送提示词连接到 KernelGen 算子开发 MCP Toolkit，例如：
+   - **方式一**（推荐）：发送提示词连接到 KernelGen 算子开发 MCP 工具集，例如：
 
-     - `Connect to MCP, its URL is https://kernelgen.flagos.io/sse and token is <your KernelGen Token>.`
+     - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <your KernelGen Token>。`
 
-     - `Please configure the kernelgen MCP with the URL https://kernelgen.flagos.io/sse and the token is <your KernelGen Token>.`
+     - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的KernelGen Token>。`
   
    - **方式二**：使用以下命令：
 
@@ -47,7 +47,7 @@
 
       - **方式 B**：创建 `mcp.json` 文件并添加 JSON 配置：
 
-        ```{code-block} python
+        ```{code-block} json
         {
           "mcpServers": {
             "kernelgen_mcp": {
@@ -65,7 +65,7 @@
    - 方式一：使用提示词
 
     ```{code-block} shell
-    Please verify the kernelgen mcp connection is successful.
+    请验证 kernelgen mcp 能否测通。
     ```
 
    - 方式二：使用命令

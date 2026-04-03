@@ -33,7 +33,7 @@ Task description: [Detailed description of the operator's functionality, inputs/
 
 ## Auto-tune examples
 
-### Example 1 — Basic
+### Example 1 — Basic version
 
 ```{code-block} shell
 Call the KernelGen MCP tool to iteratively generate the **rmsnorm** operator on MetaX.
@@ -44,7 +44,7 @@ Use defaults:
 ```
 
 
-### Example 2 — Recommended
+### Example 2 — Recommended version
 
 ```{code-block} shell
 Call the KernelGen MCP tool to iteratively generate the **rmsnorm** operator on MetaX.
@@ -53,7 +53,7 @@ Iterations: 5
 Speedup target: 1.5×
 ```
 
-### Example 3 — Advanced (Production-Grade)
+### Example 3 — Production-grade version
 
 ```{code-block} shell
 Call the KernelGen MCP tool to iteratively generate a **fused softmax** operator on an **NVIDIA GPU**.

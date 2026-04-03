@@ -32,7 +32,7 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 1. Setup `kernelgen-flagos` unified skill：  
    - **Option 1** (Recommended): Send a prompt to setup the `kernelgen-flagos` unified skill, including all sub-skills, for example:
 
-      ```{code-block} python
+      ```{code-block} shell
       Setup kernelgen-flagos skills from https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos.
       ```
 
@@ -52,7 +52,7 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
       You can go to https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos to clone the skills. Download this skill file and add it to your skills folder.
 
-      ```{code-block} python
+      ```{code-block} shell
       mkdir -p .claude/skills
       git clone https://github.com/flagos-ai/skills/
       cp -r skills/skills/kernelgen-flagos/ .claude/skills/
@@ -65,7 +65,7 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
    {style=lower-alpha}
 
    1. Option 1: Use prompt: `Please verify if the kernelgen-flagos skills are working correctly.`
-   2. Option 2: Use command "/", if kernelgen-flagos is listed, the skills are installed.
+   2. Option 2: Use command "/", if kernelgen-flagos is listed, the skills are setup.
 
 
 ## Connect OpenClaw to KernelGen Operator Development MCP Toolkit and load skills
@@ -79,6 +79,8 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 3. Send a prompt to setup the kernelgen-flagos unified skill, including all sub-skills, for example: `Setup kernelgen-flagos skills from <https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos>`.
 
 4. Send a prompt to OpenClaw: `Convert the skills to OpenClaw compatible skills and install again`.
+
+5. Verify skills are successfully setup: `Please verify if the kernelgen-flagos skills are working correctly.`
 
 ## Connect VSCode and Github Copilot to KernelGen Operator Development MCP Toolkit and load skills
 
@@ -97,9 +99,8 @@ Regarding generating operators for FlagGems or vLLM project, optimizing operator
 
 4. Send a prompt to setup the kernelgen-flagos unified skill, including all sub-skills, for example: `Setup kernelgen-flagos skills from <https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos>`.
 
-5. Verify skills are successfully installed: `Please verify if the kernelgen-flagos skills are working correctly.`
+5. Verify skills are successfully setup: `Please verify if the kernelgen-flagos skills are working correctly.`
 
-6. Send a prompt to run a task, for example, generating an operator.
 
 ## Generate an operator generally
 

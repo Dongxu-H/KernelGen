@@ -14,22 +14,14 @@ To connect OpenClaw to the KernelGen Operator Development MCP Toolkit, perform t
 
    - `Please configure the kernelgen MCP with the URL https://kernelgen.flagos.io/sse and the token is <your KernelGen Token>. `
 
-    **Note**: If the current OpenClaw version does not support MCP, you can install `mcporter` via prompt or command．The following is the command example.
+    **Note**: If the current OpenClaw version does not support MCP, you can setup `mcporter` via prompt or command．The following is the command example.
 
     ```{code-block} shell
     "npx skills add steipete/clawdis@mcporter -g -y"
     ```
 
-2. Verify KernelGen Operator Development MCP Toolkit connection：
-
-   - **Option 1**: Use prompt
-
-    ```{code-block} shell
-    Please verify the kernelgen mcp connection is successful.
-    ```
-
-   - **Option 2**: Use command
+2. Verify KernelGen Operator Development MCP Toolkit connection, prompt：
   
-    ```{code-block} python
-    /mcp
-    ```
+  ```{code-block} shell
+  Please verify the kernelgen mcp connection is successful.
+  ```

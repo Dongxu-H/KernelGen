@@ -55,11 +55,11 @@ npx 需要 npm 版本在 5.2.0 或更高。
 1. 向 OpenClaw 发送提示词："连接 MCP，其 URL 为 https://kernelgen.flagos.io/sse，Token为*你的 Token*。
 💡 结合网页信息的补充说明"。
 
-1. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集作为 MCP Server 添加到 `openclaw.json` 配置文件中。
+2. 提示 OpenClaw 重启自身，因为上一步已将 KernelGen 算子开发 MCP 工具集作为 MCP Server 添加到 `openclaw.json` 配置文件中。
 
 2. 向 OpenClaw 发送提示词："连接 MCP，其 URL 为 https://kernelgen.flagos.io/sse，Token为*你的 Token*"。
 
-3. 向 OpenClaw 发送提示词："将 Skills 转换为 OpenClaw 兼容的 Skills 格式，然后重新安装"。
+4. 向 OpenClaw 发送提示词："将 Skills 转换为 OpenClaw 兼容的 Skills 格式，然后重新安装"。
 
 ## 一般性生成算子
 

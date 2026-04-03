@@ -20,8 +20,16 @@ To connect OpenClaw to the KernelGen Operator Development MCP Toolkit, perform t
     "npx skills add steipete/clawdis@mcporter -g -y"
     ```
 
-2. Verify KernelGen Operator Development MCP Toolkit connection, prompt：
+2. Verify KernelGen Operator Development MCP Toolkit connection：
+
+   - **Option 1**: Use prompt
 
     ```{code-block} shell
     Please verify the kernelgen mcp connection is successful.
+    ```
+
+   - **Option 2**: Use command
+  
+    ```{code-block} python
+    /mcp
     ```

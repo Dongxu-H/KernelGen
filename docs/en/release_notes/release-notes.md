@@ -1,11 +1,11 @@
 # Release Notes
 
-This section includes the FlagGems release information.
+This section includes the KernelGen release information.
 
 ## V2.0.0
 
 - **Added features**：
-  - Added support for creating, optimizing, and specializing operators across multiple hardware platforms via the KernelGen Operator Development MCP Toolkit, AI agents, and first- and third-party skills.
+  - Added support for creating, optimizing, and specializing Kernels across multiple hardware platforms via the KernelGen Operator Development MCP Toolkit, AI agents, and first- and third-party skills.
   - Added support for generating the FlagTree TLE operator on NVIDIA hardware platforms. TLE operator generation capability is an experimental feature currently under active development.
   - Extended testing devices support to include MetaX platform.
   - Introduced a History panel to track modifications to the Kernel code.

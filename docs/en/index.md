@@ -65,7 +65,7 @@ Guides you how to contribute the KernelGen generated Kernel, Correctness Test, a
 :link: skills_use_case/skills-use-case
 :link-type: doc
 
-Guides you how to generate, optimize, and specialize operators for various cases.
+Guides you how to generate, optimize, and specialize Kernels for various cases.
 
 +++
 [Learn more »](skills_use_case/skills-use-case)

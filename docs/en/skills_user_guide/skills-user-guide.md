@@ -1,8 +1,8 @@
 # KernelGen Skills User Guide
 
-This section introduces how to use VSCode (and Copilot), Claude Code, and OpenClaw to connect to the KernelGen Operator Development MCP Toolkit and use KernelGen Skills to generate an operator generally.
+This section introduces how to use VSCode (and Copilot), Claude Code, and OpenClaw to connect to the KernelGen Operator Development MCP Toolkit and use KernelGen Skills to generate Kernels generally.
 
-Regarding generating operators for FlagGems or vLLM project, optimizing operators, and specializing operators across hardware platforms use cases, see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).
+Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, and specializing Kernels across hardware platforms use cases, see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).
 
 ## Prerequisites
 
@@ -122,4 +122,4 @@ You can use one of the following methods to invoke the `kernelgen-flagos` skill 
 
 Regarding which hardware platforms you can generate operators for, see [Supported Hardware Platforms](../KernelGen_overview/supported-hardware-platforms.md).
 
-Regarding generating operators for FlagGems or vLLM project, optimizing operators, and specializing operators across hardware platforms use cases, see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).
+Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, and specializing Kernels across hardware platforms use cases, see [KernelGen Skills Use Cases](../skills_use_case/skills-use-case.md).

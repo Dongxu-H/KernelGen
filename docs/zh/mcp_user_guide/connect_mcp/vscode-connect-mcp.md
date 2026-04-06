@@ -12,9 +12,9 @@
 
    - **方式一**（推荐）：发送提示词连接到 KernelGen 算子开发 MCP 工具集，例如：
 
-     - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <your KernelGen Token>。`
+     - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <你的 KernelGen Token>。`
 
-     - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的KernelGen Token>。`
+     - `请配置 kernelgen mcp, URL 是 https://kernelgen.flagos.io/sse，token 是 <你的 KernelGen Token>。`
 
    - **方式二**：手动配置
 
@@ -31,7 +31,7 @@
               "type": "sse",
               "url": "https://kernelgen.flagos.io/sse",
               "headers": {
-                "Authorization": "Bearer <your KernelGen Token>"
+                "Authorization": "Bearer <你的 KernelGen Token>"
               }
             }
           }
@@ -44,7 +44,7 @@
 
    1. 按 **Ctrl**+**Shift**+**P** 打开命令面板，输入并搜索"MCP: List Servers"，然后按 Enter 键，即可查看 VSCode 中当前所有已配置的 MCP Server 及其运行状态。
 
-   2. 从列表中选择"kernelgen-mcp"，然后选择"Start Server"。
+   2. 从列表中选择"kernelgen-mcp"，然后选择"启动服务器"。
 
 3. 验证 KernelGen 算子开发 MCP 工具集连接，发送提示词：
   

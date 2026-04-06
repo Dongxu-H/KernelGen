@@ -10,9 +10,9 @@
 
 1. 发送提示词连接到 KernelGen 算子开发 MCP 工具集，例如：
 
-   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <your KernelGen Token>。`
+   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <你的 KernelGen Token>。`
 
-   - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的KernelGen Token>。`
+   - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的 KernelGen Token>。`
 
     **注意**：如果当前 OpenClaw 版本不支持 MCP，可通过提示词或命令安装 `mcporter`。以下为命令示例：
 

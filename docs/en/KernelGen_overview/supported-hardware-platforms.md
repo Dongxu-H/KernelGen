@@ -1,9 +1,9 @@
 # Supported hardware platforms
 
-KernelGen Web Platform and KernelGen Operator Development MCP Toolkit internally integrate support for the following testing devices: Huawei Ascend, Hygon, Iluvatar, MetaX, Mthreads, and NVIDIA.
+KernelGen internally integrate support for the following testing devices: Huawei Ascend, Hygon, Iluvatar, MetaX, Mthreads, and NVIDIA.
 
-- **Generating operators**:
+- **Generating Kernels**:
   - If users do not select a testing device, NVIDIA is used by default.
   - For generating FlagTree TLE operators specifically, the testing device can only be NVIDIA.
-- **Optimizing operators**: Only support operator optimization on NVIDIA.
-- **Specializing operators**: Only support operator specialization from NVIDIA to Huawei Ascend.
+- **Optimizing Kernels**: Only support Kernel optimization on NVIDIA.
+- **Specializing Kernels**: Only support Kernel specialization from NVIDIA to Huawei Ascend.

@@ -65,7 +65,7 @@
 :link: skills_use_case/skills-use-case
 :link-type: doc
 
-指导您如何针对各类场景生成、优化和特化算子。
+指导您如何针对各类场景生成、优化和特化 Kernel。
 
 +++
 [了解更多 »](skills_use_case/skills-use-case)

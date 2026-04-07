@@ -1,8 +1,8 @@
-# Optimize an operator
+# Optimize a Kernel
 
-You can use either VSCode (and Copilot), Claude Code, or OpenClaw to optimize operators on **NVIDIA**.
+You can use either VSCode (and Copilot), Claude Code, or OpenClaw to optimize a Kernel on **NVIDIA**.
 
-To optimize an operator, a typical prompt should include the following mandatory and optional elements:
+To optimize a Kernel, a typical prompt should include the following mandatory and optional elements:
 
 Operator name（mandatory）, task description (mandatory), and optimization iterations.
 

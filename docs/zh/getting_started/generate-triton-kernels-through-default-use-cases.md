@@ -13,7 +13,7 @@
 
 2. 点击 ![alt text](../assets/icons/right-arrow.png){w=20px}。
 
-   KernelGen 将搜索 GitHub 仓库列表，以查找与算子定义相似的代码片段。有关 GitHub 仓库列表的更多信息，请参见 [](../search-repo-list.md)。
+   KernelGen 将搜索 GitHub 仓库列表，以查找与算子定义相似的代码片段。有关 GitHub 仓库列表的更多信息，请参见 [仓库列表](../references/search-repo-list.md)。
 
 3. 选择一个或多个仓库 URL 作为参考，或选中直接生成复选框，然后点击 **下一步**。
 

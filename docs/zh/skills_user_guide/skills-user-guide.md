@@ -2,7 +2,7 @@
 
 本节介绍如何使用 VSCode（及 Copilot）、Claude Code 和 OpenClaw 连接到 KernelGen 算子开发 MCP 工具集，并使用 KernelGen Skills 进行算子的通用生成。
 
-有关为 FlagGems 或 vLLM 项目生成算子、优化算子以及跨硬件平台专化算子的使用案例，请参见 [KernelGen Skills 使用案例](../skills_use_case/skills-use-case.md)。
+有关为 FlagGems 或 vLLM 项目生成 Kernel、优化 Kernel以及跨硬件平台特化 Kernel 的使用案例，请参见 [KernelGen Skills 使用案例](../skills_use_case/skills-use-case.md)。
 
 ## 前提条件
 
@@ -71,12 +71,12 @@
 ## 将 OpenClaw 连接到 KernelGen 算子开发 MCP 工具集并加载 Skills
 
 1. 发送提示词连接到 KernelGen 算子开发 MCP 工具集，例如：
-   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <your KernelGen Token>。`
+   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <你的 KernelGen Token>。`
    - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的KernelGen Token>。`
 
 2. 发送提示词重启 OpenClaw，因为上一步已将 KernelGen 算子开发 MCP 工具集作为 MCP Server 添加到 `openclaw.json` 配置文件中。
 
-3. 发送提示词配置 kernelgen-flagos 统一 Skills，包含所有子技能，例如：`请安装 kernelgen-flagos skills, 网址是 https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos。`
+3. 发送提示词配置 kernelgen-flagos 统一 skill，包含所有子技能，例如：`请安装 kernelgen-flagos skills, 网址是 https://github.com/flagos-ai/skills/tree/main/skills/kernelgen-flagos。`
 
 4. 向 OpenClaw 发送提示词：`将技能转换为 OpenClaw 兼容的技能后重新安装。`
 
@@ -86,7 +86,7 @@
 ## 将 VSCode 和 Github Copilot 连接到 KernelGen 算子开发 MCP 工具集并加载 Skills
 
 1. 发送提示词连接到 KernelGen 算子开发 MCP 工具集，例如：
-   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <your KernelGen Token>。`
+   - `连接到 MCP，其 URL 为 https://kernelgen.flagos.io/sse，token 为 <你的 KernelGen Token>。`
    - `请配置 kernelgen mcp, url 是 https://kernelgen.flagos.io/sse，token 是 <你的KernelGen Token>。`
 
 2. 启动 KernelGen 算子开发 MCP 工具集：
@@ -123,4 +123,4 @@
 
 有关支持生成算子的硬件平台，请参见[支持的硬件平台](../KernelGen_overview/supported-hardware-platforms.md)。
 
-有关为 FlagGems 或 vLLM 项目生成算子、优化算子以及跨硬件平台专化算子的使用案例，请参见 [KernelGen Skills 使用案例](../skills_use_case/skills-use-case.md)。
+有关为 FlagGems 或 vLLM 项目生成算子、优化算子以及跨硬件平台特化 Kernel 的使用案例，请参见 [KernelGen Skills 使用案例](../skills_use_case/skills-use-case.md)。

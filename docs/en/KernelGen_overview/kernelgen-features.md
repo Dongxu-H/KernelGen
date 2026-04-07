@@ -1,6 +1,6 @@
 # Features
 
-KernelGen Web Platform and KernelGen Operator Development MCP Toolkit platforms support generating, optimizing, and specializing operators through one of the following methods:
+KernelGen support generating, optimizing, and specializing Kernels through one of the following methods:
 
 - KernelGen Web Platform
 - KernelGen Operator Development MCP Toolkit and its MCP tools: All MCP tools are integrated into this MCP toolkit.

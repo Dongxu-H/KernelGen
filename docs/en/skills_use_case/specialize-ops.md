@@ -1,12 +1,12 @@
-# Specialize an operator
+# Specialize a Kernel
 
 You can use either VSCode (and Copilot), Claude Code, or OpenClaw to migrate CUDA-implemented operators to Huawei Ascend.
 
-To optimize an operator, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）and task description (mandatory).
+To specialize a Kernel, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）and task description (mandatory).
 
 ## Steps
 
-If you haven't connected to the KernelGen Operator Development MCP Toolkit and load skills, see [KernelGen Skills User Guide](../skills_user_guide/skills-user-guide.md), otherwise use one of the following methods to invoke the `kernelgen-flagos` skill and specialize an operator:
+If you haven't connected to the KernelGen Operator Development MCP Toolkit and load skills, see [KernelGen Skills User Guide](../skills_user_guide/skills-user-guide.md), otherwise use one of the following methods to invoke the `kernelgen-flagos` skill and specialize a Kernel:
 
 - **Option 1**: Use the slash command and prompt
 

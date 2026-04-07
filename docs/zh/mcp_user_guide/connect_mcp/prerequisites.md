@@ -9,7 +9,7 @@
 2. 点击 **Start Building for Free**。
    ![alt text](../../assets/images/start-building-from-free-zh.png)
 
-3. 将页面滚动到底部，点击 **MCP Service**。
+3. 将页面滚动到底部，点击 **MCP 服务**。
    ![alt text](../../assets/images/building-methods-zh.png)
 
 4. 在右侧 **KernelGen Token** 区域，点击眼睛图标查看 KernelGen Token，然后点击 **Copy** 将其复制到剪贴板并保存备用。

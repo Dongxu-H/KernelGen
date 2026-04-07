@@ -6,7 +6,7 @@
 "mcp_kernelgen": {
       "url": "https://kernelgen.flagos.io/sse",
       "headers": {
-        "Authorization": "Bearer <your KernelGen Token>"
+        "Authorization": "Bearer <你的 KernelGen Token>"
       },
       "timeout": 3600,
       "disabled": false

@@ -2,19 +2,13 @@
 
 ## 前提条件
 
-生成 Kernel 之前，请确保您已阅读本节中的前提条件，并完成预安装步骤。
+生成 Kernel 之前，请确保您已阅[前提条件](../skills_user_guide/skills-user-guide.md)，并完成本节预安装步骤。
 
-- 使用以下智能体版本：
+预先从源码安装 FlagGems 或 vLLM。
 
-  - Claude Code：2.1 版及更高版本
-  - OpenClaw：2026.3.2 版及更高版本
-  - VSCode：需激活 Github Copilot
+- KernelGen Skills 支持 FlagGems 项目，请参见下方*预安装 FlagGems*章节。
 
-- 预先从源码安装 FlagGems 或 vLLM。
-
-  - KernelGen Skills 支持 FlagGems 项目，请参见下方*预安装 FlagGems*章节。
-
-  - KernelGen Skills 支持 vLLM 项目，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。同时，请安装 [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html)。
+- KernelGen Skills 支持 vLLM 项目，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。同时，请安装 [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html)。
 
 ## 预安装 FlagGems
 

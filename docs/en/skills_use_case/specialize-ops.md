@@ -4,6 +4,8 @@ You can use either VSCode (and Copilot), Claude Code, or OpenClaw to migrate CUD
 
 To specialize a Kernel, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）and task description (mandatory).
 
+Make sure you read the [prerequisites](../skills_user_guide/skills-user-guide.md).
+
 ## Steps
 
 If you haven't connected to the KernelGen Operator Development MCP Toolkit and load skills, see [KernelGen Skills User Guide](../skills_user_guide/skills-user-guide.md), otherwise use one of the following methods to invoke the `kernelgen-flagos` skill and specialize a Kernel:

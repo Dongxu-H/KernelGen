@@ -6,6 +6,8 @@
 
 算子名称（必填）、任务描述（必填），以及优化迭代次数。
 
+请确保您已阅[前提条件](../skills_user_guide/skills-user-guide.md)
+
 ## 步骤
 
 如果您尚未连接到 KernelGen 算子开发 MCP 工具集并加载Skills，请参见 [KernelGen Skills 用户指南](../skills_user_guide/skills-user-guide.md)；否则，请使用以下任一方式调用 `kernelgen-flagos` Skills 并优化 Kernel：

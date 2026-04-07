@@ -6,13 +6,19 @@ Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, a
 
 ## Prerequisites
 
-- Claude Code version 2.1 and later
+- Agent client versions:
 
-- OpenClaw version 2026.3.2 and later
+  - Claude Code version 2.1 and later
 
-- VSCode with Github Copilot activated
+  - OpenClaw version 2026.3.2 and later
 
-- Preinstall the `torch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `torch_npu` in addition to the standard `torch` package.
+  - VSCode with Github Copilot activated
+
+- Environment preparations:
+
+  - Preinstall the `torch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `torch_npu` in addition to the standard `torch` package.
+  
+  - Preinstall [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html).
 
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md

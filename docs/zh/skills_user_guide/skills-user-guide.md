@@ -6,13 +6,19 @@
 
 ## 前提条件
 
-- Claude Code 2.1 及更高版本
+- 智能体客户端版本：
+  
+  - Claude Code 2.1 及更高版本
 
-- OpenClaw 2026.3.2 及更高版本
+  - OpenClaw 2026.3.2 及更高版本
 
-- 已安装并激活 GitHub Copilot 的 VSCode
+  - 已安装并激活 GitHub Copilot 的 VSCode
 
-- 请预先安装 `torch`、`triton` 和 `pytest` 软件包，以支持在不同硬件平台上进行 Kernel 测试。对于华为昇腾（Huawei Ascend）平台，除标准 `torch` 软件包外，还需安装 `torch_npu`。
+- 环境准备：
+  
+  - 请预先安装 `torch`、`triton` 和 `pytest` 软件包，以支持在不同硬件平台上进行 Kernel 测试。对于华为昇腾（Huawei Ascend）平台，除标准 `torch` 软件包外，还需安装 `torch_npu`。
+
+  - 预先安装 [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html)。
 
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md

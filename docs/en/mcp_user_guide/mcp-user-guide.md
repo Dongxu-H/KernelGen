@@ -4,7 +4,7 @@ This section introduces how to use VSCode (and Copilot), Claude Code, and OpenCl
 
 ## Prerequisites
 
-Preinstall the `pytorch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `pytorch_npu` in addition to the standard `pytorch` package.
+Preinstall the `torch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `torch_npu` in addition to the standard `torch` package.
 
 ```{toctree}
 :maxdepth: 2

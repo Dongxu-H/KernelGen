@@ -12,7 +12,7 @@ Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, a
 
 - VSCode with Github Copilot activated
 
-- Preinstall the `pytorch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `pytorch_npu` in addition to the standard `pytorch` package.
+- Preinstall the `torch`, `triton`, and `pytest` packages to enable Kernel testing across different hardware platforms. For Huawei Ascend, install `torch_npu` in addition to the standard `torch` package.
 
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md

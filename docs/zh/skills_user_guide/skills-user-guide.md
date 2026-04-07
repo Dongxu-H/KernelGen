@@ -12,7 +12,7 @@
 
 - 已安装并激活 GitHub Copilot 的 VSCode
 
-- 请预先安装 `pytorch`、`triton` 和 `pytest` 软件包，以支持在不同硬件平台上进行 Kernel 测试。对于华为昇腾（Huawei Ascend）平台，除标准 `pytorch` 软件包外，还需安装 `pytorch_npu`。
+- 请预先安装 `torch`、`triton` 和 `pytest` 软件包，以支持在不同硬件平台上进行 Kernel 测试。对于华为昇腾（Huawei Ascend）平台，除标准 `torch` 软件包外，还需安装 `torch_npu`。
 
 
 ```{include} ../mcp_user_guide/connect_mcp/prerequisites.md

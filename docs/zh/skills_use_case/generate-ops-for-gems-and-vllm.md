@@ -12,15 +12,13 @@
 
 - 预先从源码安装 FlagGems 或 vLLM。
 
-  - KernelGen Skills 支持 FlagGems，请参见下方*预安装 FlagGems*章节。
+  - KernelGen Skills 支持 FlagGems 项目，请参见下方*预安装 FlagGems*章节。
 
-  - KernelGen Skills 支持 vLLM，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。
+  - KernelGen Skills 支持 vLLM 项目，请参见 [vLLM 用户指南](https://docs.vllm.ai/en/latest/getting_started/installation/)。同时，请安装 [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html)。
 
 ## 预安装 FlagGems
 
-安装信息请参见 [FlagGems 文档](https://docs.flagos.io/projects/FlagGems/en/latest/getting_started/install.html#)。
-
-**注意**：安装过程中，请跳过 `pip install -r flag_tree_requirements/requirements_nvidia.txt` 命令，因为该命令涉及 FlagTree 及其依赖项的安装。
+安装信息请参见 [FlagGems 文档](https://docs.flagos.io/projects/FlagGems/en/latest/getting_started/install.html#)。通过 requirements 文本文件安装 FlagTree。
 
 ## 生成 Kernel
 

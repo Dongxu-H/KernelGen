@@ -4,7 +4,7 @@
 
 Before generating a kernel, make sure you read the prerequisites and accomplish the pre-installation steps in this section.
 
-- Use the following agent versions:
+- Agent client version:
 
   - Claude Code version 2.1 and later
 
@@ -12,19 +12,17 @@ Before generating a kernel, make sure you read the prerequisites and accomplish 
 
   - VSCode with Github Copilot activated
 
-- Preinstall FlagGems or vLLM from source
+- Environment preparations:
 
-  - KernelGen Skills support FlagGems, see the next *Preinstall FlagGems* section.
+  Preinstall FlagGems or vLLM from source
 
-  - KernelGen Skills support vLLM, see [vLLM user guide](https://docs.vllm.ai/en/latest/getting_started/installation/).
+  - KernelGen Skills support FlagGems project, see the next *Preinstall FlagGems* section.
+
+  - KernelGen Skills support vLLM project, see [vLLM user guide](https://docs.vllm.ai/en/latest/getting_started/installation/). Also, install the [FlagTree](https://docs.flagos.io/projects/FlagTree/en/latest/getting_started/install.html).
 
 ## Preinstall FlagGems
 
-For installation information, see [FlagGems Documentation](https://docs.flagos.io/projects/FlagGems/en/latest/getting_started/install.html#).
-
-**Note**:
-
-During the installation, skip the`pip install -r flag_tree_requirements/requirements_nvidia.txt` command since this command relates to installation of FlagTree and its dependencies.
+For installation information, see [FlagGems Documentation](https://docs.flagos.io/projects/FlagGems/en/latest/getting_started/install.html#). Install the FlagTree through the requirement text file.
 
 ## Generate a kernel
 

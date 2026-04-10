@@ -79,8 +79,8 @@ Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, a
 ## Connect OpenClaw to KernelGen Operator Development MCP Toolkit and load skills
 
 1. Send a prompt to connect to the KernelGen Operator Development MCP Toolkit, for example:
-   - `Connect to MCP, its URL is https://kernelgen.flagos.io/sse and token is <your KernelGen Token>.`
-   - `Please configure the kernelgen MCP with the URL https://kernelgen.flagos.io/sse and the token is <your KernelGen Token>.`
+   - `Based on the Claude Code configuration documentation: https://code.claude.com/docs/en/mcp, connect to the MCP. The MCP URL is https://kernelgen.flagos.io/sse, and the token is <your KernelGen Token>. Configure this in the claude.json file.`
+   - `Based on the VSCode documentation: https://code.visualstudio.com/docs/copilot/customization/mcp-servers, configure the kernelgen MCP. The MCP URL is https://kernelgen.flagos.io/sse, and the token is <your KernelGen Token>. Configure this in the mcp.json file.`
 
 2. Send a prompt to restart OpenClaw, since the previous step adds the KernelGen Operator Development MCP Toolkit as a MCP server to the `openclaw.json` configuration file.
 
@@ -93,8 +93,8 @@ Regarding generating Kernels for FlagGems or vLLM project, optimizing Kernels, a
 ## Connect VSCode and Github Copilot to KernelGen Operator Development MCP Toolkit and load skills
 
 1. Send a prompt to connect to the KernelGen Operator Development MCP Toolkit, for example:
-   - `Connect to MCP, its URL is https://kernelgen.flagos.io/sse and token is <your KernelGen Token>.`
-   - `Please configure the kernelgen MCP with the URL https://kernelgen.flagos.io/sse and the token is <your KernelGen Token>. `
+   - `Based on the Claude Code configuration documentation: https://code.claude.com/docs/en/mcp, connect to the MCP. The MCP URL is https://kernelgen.flagos.io/sse, and the token is <your KernelGen Token>. Configure this in the claude.json file.`
+   - `Based on the VSCode documentation: https://code.visualstudio.com/docs/copilot/customization/mcp-servers, configure the kernelgen MCP. The MCP URL is https://kernelgen.flagos.io/sse, and the token is <your KernelGen Token>. Configure this in the mcp.json file. `
 
 2. Start KernelGen Operator Development MCP Toolkit:
 

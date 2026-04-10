@@ -4,7 +4,7 @@
 
 特化 Kernel 时，典型的提示词应包含以下必填要素：算子名称（必填）和任务描述（必填）。
 
-请确保您已阅[前提条件](../skills_user_guide/skills-user-guide.md)
+请确保您已阅[前置条件](../mcp_user_guide/prerequisites.md)。
 
 ## 步骤
 

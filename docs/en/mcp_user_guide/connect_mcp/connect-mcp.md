@@ -7,7 +7,7 @@ This section introduces how to connect to KernelGen Operator Development MCP Too
 :maxdepth: 2
 
 
-prerequisites.md
+obtain-token.md
 vscode-connect-mcp.md
 claudecode-connect-mcp.md
 openclaw-connect-mcp.md

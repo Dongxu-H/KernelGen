@@ -6,7 +6,9 @@
 
 算子名称（必填）、任务描述（必填），以及优化迭代次数。
 
-请确保您已阅[前提条件](../skills_user_guide/skills-user-guide.md)
+请确保您已阅[前置条件](../mcp_user_guide/prerequisites.md)。
+
+
 
 ## 步骤
 

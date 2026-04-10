@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Before generating a kernel, make sure you read the [prerequisites](../skills_user_guide/skills-user-guide.md) and accomplish the pre-installation steps in this section.
+Before generating a kernel, make sure you read the [prerequisites](../mcp_user_guide/prerequisites.md) and accomplish the pre-installation steps in this section.
 
   Preinstall FlagGems or vLLM from source:
 

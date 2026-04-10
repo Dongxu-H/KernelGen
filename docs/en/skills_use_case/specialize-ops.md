@@ -4,7 +4,7 @@ You can use either VSCode (and Copilot), Claude Code, or OpenClaw to migrate CUD
 
 To specialize a Kernel, a typical prompt should include the following mandatory and optional elements: Operator name（mandatory）and task description (mandatory).
 
-Make sure you read the [prerequisites](../skills_user_guide/skills-user-guide.md).
+Make sure you read the [prerequisites](../mcp_user_guide/prerequisites.md).
 
 ## Steps
 

@@ -6,7 +6,7 @@ To optimize a Kernel, a typical prompt should include the following mandatory an
 
 Operator name（mandatory）, task description (mandatory), and optimization iterations.
 
-Make sure you read the [prerequisites](../skills_user_guide/skills-user-guide.md).
+Make sure you read the [prerequisites](../mcp_user_guide/prerequisites.md).
 
 ## Steps
 

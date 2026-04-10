@@ -2,7 +2,7 @@
 
 ## 前提条件
 
-生成 Kernel 之前，请确保您已阅[前提条件](../skills_user_guide/skills-user-guide.md)，并完成本节预安装步骤。
+生成 Kernel 之前，请确保您已阅[前置条件](../mcp_user_guide/prerequisites.md)，并完成本节预安装步骤。
 
 预先从源码安装 FlagGems 或 vLLM。
 

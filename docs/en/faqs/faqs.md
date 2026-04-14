@@ -4,7 +4,7 @@
 
 **Q: How long is the KernelGen Operator Development MCP Toolkit token valid?**
 
-A: The token is currently valid for one year. If it expires, you will need to renew it on the official website.
+A: The token is currently valid for 100 days. If it expires, you will need to renew it on the official website.
 
 ---
 

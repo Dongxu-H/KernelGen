@@ -4,7 +4,7 @@
 
 **Q: KernelGen MCP Server 的 token 有效期是多久？**
 
-A: 目前 token 有效期是一年，如果 token 失效，需要在官网续期
+A: 目前 token 有效期是100天，如果 token 失效，需要在官网续期
 
 ---
 

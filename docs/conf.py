@@ -79,8 +79,8 @@ multiproject_projects = {
     "zh": {
         "use_config_file": False,
         "config": {
-            "project": "KernelGen Documentation",
-            "html_title": "KernelGen Documentation",
+            "project": "KernelGen 文档中心",
+            "html_title": "KernelGen 文档中心",
         },
     },
 }
@@ -169,27 +169,58 @@ html_css_files = ["css/custom.css"]
 # Don't add sphinx_prompt_css.css for now, it might not exist
 html_js_files = []
 
-html_logo = "img/logo.svg"
-html_favicon = "img/logo.svg"
-html_theme_options = {
-    "logo_only": True,
-}
+# html_logo = "img/logo.svg"
+# html_favicon = "img/logo.svg"
+
+if docset == 'en':
+    html_favicon = 'img/en-logo.svg'
+else:
+    html_favicon = 'img/zh-logo.svg'
+
+
+# html_theme_options = {
+#     "logo_only": True,
+# }
+
+# html_theme_options = {
+#     "logo": {
+#       "image_light": "_static/kernelgen-logo.svg",
+#       "image_dark": "_static/kernelgen-logo.svg",
+#    },
+#     "home_page_in_toc": True,
+#     "use_download_button": False,
+#     "repository_url": "https://github.com/flagos-ai/KernelGen",
+#     "use_edit_page_button": True,
+#     # "github_url": "https://github.com/flagos-ai/KernelGen",
+#     # "repository_branch": "master",
+#     # "path_to_docs": "docs",
+#     "use_repository_button": True,
+#     # "announcement": "<b>v3.0.0</b> is now out! See the Changelog for details",
+# }
+
+# 根据语言选择 logo（浅色/深色）
+if docset == 'en':
+    logo_light = '_static/en-logo.svg'
+    logo_dark = '_static/en-logo-dark.svg'
+else:  # zh
+    logo_light = '_static/zh-logo.svg'
+    logo_dark = '_static/zh-logo-dark.svg'
 
 html_theme_options = {
     "logo": {
-      "image_light": "_static/kernelgen-logo.svg",
-      "image_dark": "_static/kernelgen-logo.svg",
-   },
+        "image_light": logo_light,
+        "image_dark": logo_dark,
+    },
     "home_page_in_toc": True,
     "use_download_button": False,
     "repository_url": "https://github.com/flagos-ai/KernelGen",
     "use_edit_page_button": True,
-    # "github_url": "https://github.com/flagos-ai/KernelGen",
-    # "repository_branch": "master",
-    # "path_to_docs": "docs",
     "use_repository_button": True,
-    # "announcement": "<b>v3.0.0</b> is now out! See the Changelog for details",
 }
+
+# 如果有其他地方还用到 html_logo 或 html_favicon，建议删除或注释掉
+# html_logo = "img/logo.svg"
+# html_favicon = "img/logo.svg"
 
 # html_context = {
 #     "conf_py_path": f"/docs/{docset}/",

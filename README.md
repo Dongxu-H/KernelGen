@@ -2,6 +2,8 @@
 
 Next-Generation AI-Assisted Kernel Engineering for Multi-Chip Systems, which is new in Flag-OS family.
 
+English | [中文](./README_zh.md)
+
 
 # ‍Overview
 
